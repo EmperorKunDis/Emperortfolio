@@ -10,7 +10,7 @@ api:
 certificatesResolvers:
   letsEncrypt:
     acme:
-      email: "mailto:martin.k.svanda@gmail.com"  # Email address used for registration
+      email: "martin.k.svanda@gmail.com"  # Email address used for registration
       storage: "/etc/traefik/acme/acme.json"    # [Attention] File or key used for certificates storage
       tlsChallenge: {}
 
