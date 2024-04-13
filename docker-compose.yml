@@ -1,10 +1,70 @@
 version: '3'
 
+networks:
+  traefik-net:
+    # driver: overlay
+    # external: true 
+  
 services:
+  traefik:
+    labels:
+      traefik.docker.network: "traefik-net"
+      traefik.enable: "true"
+      traefik.http.routers.traefik.entrypoints: "https"
+      traefik.http.routers.traefik.middlewares: "traefikAuth@file,default@file"
+      traefik.http.routers.traefik.rule: "Host(`${TRAEFIK_SUBDOMAIN}.${TRAEFIK_DOMAIN}`)" # [Attention]
+      traefik.http.routers.traefik.service: "api@internal"
+      traefik.http.routers.traefik.tls.certresolver: "letsEncrypt"
+      traefik.http.routers.traefik.tls.options: "modern@file"
+      traefik.http.routers.traefik.tls: "true"
+      traefik.http.services.traefik.loadbalancer.server.port: 8080
+      traefik.http.services.traefik.loadbalancer.sticky.cookie.httpOnly: "true"
+      traefik.http.services.traefik.loadbalancer.sticky.cookie.secure: "true"
+      # Schedule Traefik on the Swarm manager nodes, as the Swarm API is only exposed on the manager nodes
+      # See https://docs.traefik.io/providers/docker/#docker-api-access_1
+    # Published on https://hub.docker.com/_/traefik?tab=tags
+    image: traefik:v2.10                                                     # See https://github.com/containous/traefik/releases
+    networks:
+      - traefik-net
+    ports:
+      - 80:80
+      - 443:443
+      # To be able to listen on port 80 (http)
+      # - mode: host
+      #   published: 80
+      #   target: 80
+      # # To be able to listen on port 443 (https)
+      # - mode: host
+      #   published: 443
+      #   target: 443
+    volumes:
+      - ./traefik/localtime:/etc/localtime:ro                                        # Set the container timezone by sharing the read-only localtime
+      - ./traefik/config/dynamic_config.yml:/etc/traefik/config.yml:ro            # Set the dynamic configuration for the file provider
+      - ./traefik/config/traefik.yml:/etc/traefik/traefik.yml:ro          # Set the static configuration
+      - ./traefik/cert:/etc/traefik/acme                                      # Set the location where my ACME certificates are saved to
+      - /var/run/docker.sock:/var/run/docker.sock:ro                            # Give access to the UNIX Docker socket
   web:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: emperortfolio
-    ports:
-      - 1234:1234
+    container_name: emperortfolio-web
+    labels:
+      traefik.docker.network: "traefik-net"
+      traefik.enable: "true"
+      traefik.http.routers.emperortfolio.entrypoints: "https"
+      traefik.http.middlewares.wwwtohttps.redirectregex.regex: "^https?://www\\.(.+)"
+      traefik.http.middlewares.wwwtohttps.redirectregex.replacement: "https://$${1}"
+      traefik.http.middlewares.wwwtohttps.redirectregex.permanent: true
+      traefik.http.routers.emperortfolio.middlewares: "default@file"
+      traefik.http.routers.emperortfolio.rule: "Host(`${PROJECT_DOMAIN}`) || Host(`${PROJECT_SUBDOMAIN}.${PROJECT_DOMAIN}`)"
+      traefik.http.routers.emperortfolio.tls: "true"
+      traefik.http.routers.emperortfolio.tls.options: "modern@file"
+      traefik.http.routers.emperortfolio.tls.certresolver: "letsEncrypt"
+      # traefik.http.routers.emperortfolio.tls.domains[0].main: ${PROJECT_DOMAIN}
+      # traefik.http.routers.emperortfolio.tls.domains[0].sans: www.${PROJECT_DOMAIN}
+      traefik.http.services.emperortfolio.loadbalancer.server.port: 1234
+      traefik.http.services.emperortfolio.loadbalancer.sticky.cookie.httpOnly: "true"
+      traefik.http.services.emperortfolio.loadbalancer.sticky.cookie.secure: "true"
+    restart: on-failure
+    networks:
+      - traefik-net
