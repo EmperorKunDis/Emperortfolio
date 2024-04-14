@@ -15,7 +15,7 @@ const project = document.querySelector("#project");
 
 function languageUpdateEN() {
   buttonLanguageMenu.innerText = "Language";
-  buttonEnglish.innerText = "English";
+  buttonEnglish.innerText = "Englssssasasish";
   buttonGerman.innerText = "German";
   buttonCzech.innerText = "Czech";
   home.innerText = "Home";
