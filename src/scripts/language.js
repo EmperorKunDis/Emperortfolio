@@ -117,7 +117,7 @@ let language = {
     basedon: "Zakladem byla prace : ",
     welcome02: "Ja nejsem General Kenoby",
     welcome03: "Jmenuji se ",
-    welcome04: "Martin EmperorKunDis Svanda",
+    welcome04: "Martin EmperorKunDis Švanda",
     useHighground: "Vyuzij Highground",
     tryAnakin: "Zkusit to jako Anakin",
     contact: `
