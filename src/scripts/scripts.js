@@ -15,7 +15,7 @@ const project = document.querySelector("#project");
 
 function languageUpdateEN() {
   buttonLanguageMenu.innerText = "Language";
-  buttonEnglish.innerText = "English";
+  buttonEnglish.innerText = "Englssssasasish";
   buttonGerman.innerText = "German";
   buttonCzech.innerText = "Czech";
   home.innerText = "Home";
@@ -25,7 +25,7 @@ function languageUpdateEN() {
 }
 function languageUpdateDE() {
   buttonLanguageMenu.innerText = "Sprache";
-  buttonEnglish.innerText = "Englisch";
+  buttonEnglish.innerText = "Englisddddddch";
   buttonCzech.innerText = "Tschechisch";
   buttonGerman.innerText = "Deutsch";
   home.innerText = "Startseite";
@@ -35,7 +35,7 @@ function languageUpdateDE() {
 }
 function languageUpdateCZ() {
   buttonLanguageMenu.innerText = "Jazyk";
-  buttonEnglish.innerText = "Anglický";
+  buttonEnglish.innerText = "Anglicddddddký";
   buttonGerman.innerText = "Nemecký";
   buttonCzech.innerText = "Český";
   home.innerText = "Domaci obrazovka";
