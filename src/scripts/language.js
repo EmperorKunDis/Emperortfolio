@@ -23,6 +23,8 @@ window.onload = function () {
 // Define the language reload anchors
 let language = {
   eng: {
+    titletext:
+      "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
     buttonEnglish: "English",
     buttonGerman: "German",
@@ -31,14 +33,12 @@ let language = {
     aboutme: "About Me",
     contacts: "Contacts",
     project: "Projects",
-    devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Švanda",
-    basedon: "Based on work of",
+    aboutsec: "Would you like to know more ???",
     welcome02: "I'm NOT General Kenoby",
     welcome03: "I'm",
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Use Highground",
     tryAnakin: "↓↓↓ Try somethink like Anakin ↓↓↓",
-
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -62,8 +62,12 @@ let language = {
             >
         </div>
       `,
+    devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Svanda",
+    basedon: "Based on work of",
   },
   de: {
+    titletext:
+      "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
     buttonEnglish: "Englisch",
     buttonCzech: "Tschechisch",
@@ -72,8 +76,7 @@ let language = {
     aboutme: "Über mich",
     contacts: "Kontakte",
     project: "Projekte",
-    devby: "© 2024 - Website entwickelt von " + "Martin EmperorKunDis Švanda",
-    basedon: "Basierend auf der Arbeit von",
+    aboutsec: "Möchten sie mehr wissen ???",
     welcome02: "Ich bin NICHT General Kenoby",
     welcome03: "Ich heiße",
     welcome04: "Martin EmperorKunDis Svanda",
@@ -102,8 +105,12 @@ let language = {
             >
         </div>
       `,
+    devby: "© 2024 - Website entwickelt von " + "Martin EmperorKunDis Svanda",
+    basedon: "Basierend auf der Arbeit von",
   },
   cz: {
+    titletext:
+      "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
     buttonEnglish: "Anglický",
     buttonGerman: "Nemecký",
@@ -112,9 +119,8 @@ let language = {
     aboutme: "O mne",
     contacts: "Kontakty",
     project: "Projekty",
-    devby: "© 2024 - Website vyvinuta " + "Martinem EmperorKunDis Švandou",
-    calltoaction: "Zavolat do akce",
-    basedon: "Zakladem byla prace : ",
+    aboutsec: "Chcete vedet vic ???",
+    basedon: "Inspirovano : ",
     welcome02: "Ja nejsem General Kenoby",
     welcome03: "Jmenuji se ",
     welcome04: "Martin EmperorKunDis Švanda",
@@ -142,6 +148,8 @@ let language = {
               >Zavolat do akce</a>
         </div>
       `,
+    devby: "© 2024 - Website vyvinuta " + "Martinem EmperorKunDis Švandou",
+    calltoaction: "Zavolat do akce",
   },
 };
 // Check if a hash value exists in the URL
@@ -162,6 +170,7 @@ if (window.location.hash) {
     welcome04.textContent = language.de.welcome04;
     useHighground.textContent = language.de.useHighground;
     tryAnakin.textContent = language.de.tryAnakin;
+    aboutsec.textContent = language.de.aboutsec;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -178,5 +187,6 @@ if (window.location.hash) {
     welcome04.textContent = language.cz.welcome04;
     useHighground.textContent = language.cz.useHighground;
     tryAnakin.textContent = language.cz.tryAnakin;
+    aboutsec.textContent = language.cz.aboutsec;
   }
 }
