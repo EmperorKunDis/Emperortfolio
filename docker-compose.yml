@@ -44,9 +44,10 @@ services:
       - ./traefik/cert:/etc/traefik/acme                                      # Set the location where my ACME certificates are saved to
       - /var/run/docker.sock:/var/run/docker.sock:ro                            # Give access to the UNIX Docker socket
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: tech99/emperortfolio-web-dev
     container_name: emperortfolio-web
     labels:
       traefik.docker.network: "traefik-net"
