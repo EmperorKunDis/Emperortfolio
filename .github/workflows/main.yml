@@ -3,12 +3,12 @@ name: CI/CD for www.unrealcodemperor.com
 on:
   push:
     branches:
-      - master
+      - main
       - dev
   pull_request:
     branches:
-        - "main"
-        - "dev"
+        - main
+        - dev
     types: [opened, synchronize]
 
 env:
