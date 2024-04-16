@@ -39,6 +39,18 @@ let language = {
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Use Highground",
     tryAnakin: "↓↓↓ Try somethink like Anakin ↓↓↓",
+    morebutton: "More Informations",
+    projectstitle: "My Projects",
+    seemore: "See More",
+    projectbase:
+      "In the following section is a list of all my projects that " +
+      "have survived until today. Unfortunately for technical reasons I lost a " +
+      "lot of data mostly from the period when I was learning. At the same time " +
+      "I would like to point out that everything I have learned in the last two " +
+      "years I have learned on my own. I had no guidance and no help or anyone to " +
+      "advise me on how git works or what program to use to make an assembly. I " +
+      "studied everything in the time after my standard job where I program the " +
+      "backend in a different programming language than the one I develop in.",
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -81,7 +93,21 @@ let language = {
     welcome03: "Ich heiße",
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Verwenden Highground",
-    tryAnakin: "Versuchen Sie etwas wie Anakin ",
+    tryAnakin: "↓↓↓ Versuchen Sie etwas wie Anakin ↓↓↓",
+    morebutton: "Mehr Informationen",
+    projectstitle: "Meine Projekte",
+    seemore: "Mehr anzeigen",
+    projectbase:
+      "Im folgenden Abschnitt finden Sie eine Liste aller meiner " +
+      "Projekte, die bis heute überlebt haben. Leider sind mir aus technischen " +
+      "Gründen viele Daten verloren gegangen, vor allem aus der Zeit, als ich " +
+      "noch lernte. Gleichzeitig möchte ich darauf hinweisen, dass ich mir " +
+      "alles, was ich in den letzten zwei Jahren gelernt habe, selbst beigebracht " +
+      "habe. Ich hatte keine Anleitung und keine Hilfe und niemanden, der mich " +
+      "beraten hat, wie Git funktioniert oder welches Programm ich für die " +
+      "Erstellung einer Baugruppe verwenden sollte. Ich habe alles in der Zeit " +
+      "nach meinem normalen Job gelernt, bei dem ich das Backend in einer anderen " +
+      "Programmiersprache als der, in der ich entwickle, programmiere.",
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -125,7 +151,19 @@ let language = {
     welcome03: "Jmenuji se ",
     welcome04: "Martin EmperorKunDis Švanda",
     useHighground: "Vyuzij Highground",
-    tryAnakin: "Zkusit to jako Anakin",
+    tryAnakin: "↓↓↓ Zkusit to jako Anakin ↓↓↓",
+    morebutton: "Vice Informaci",
+    projectstitle: "Moje Projekty",
+    seemore: "Ukazat Vic",
+    projectbase:
+      "V nasledujici sekci je vytah vsech mych projektu ktere se " +
+      "dochovali do dnesnich dob. Bohuzel z technickych duvodu sem prisel o velke " +
+      "mnozstvi dat prevazne z obdobi kdy jsem se ucil. Zaroven bych rad poukazal " +
+      "na to ze vsechno co jsem se naucil za posledni dva roky, sem se naucil sam " +
+      "na vlastni pest. Nemel sem zadne vedeni a zadnou pomoc ani nikoho kdo by mi " +
+      "poradil treba i jen to jak funguje git nebo jaky program pouzit pro vyrobu " +
+      "assetu. Vsechno jsem nastudoval v case po sve standartni praci kde " +
+      "programuji backend v jinem programovaci jazyce nez v kterem vyvyjim.",
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
@@ -171,6 +209,10 @@ if (window.location.hash) {
     useHighground.textContent = language.de.useHighground;
     tryAnakin.textContent = language.de.tryAnakin;
     aboutsec.textContent = language.de.aboutsec;
+    morebutton.textContent = language.de.morebutton;
+    projectstitle.textContent = language.de.projectstitle;
+    seemore.textContent = language.de.seemore;
+    projectbase.textContent = language.de.projectbase;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -188,5 +230,9 @@ if (window.location.hash) {
     useHighground.textContent = language.cz.useHighground;
     tryAnakin.textContent = language.cz.tryAnakin;
     aboutsec.textContent = language.cz.aboutsec;
+    morebutton.textContent = language.cz.morebutton;
+    projectstitle.textContent = language.cz.projectstitle;
+    seemore.textContent = language.cz.seemore;
+    projectbase.textContent = language.cz.projectbase;
   }
 }

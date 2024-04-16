@@ -24,6 +24,7 @@
 
     &__text {
       text-align: left;
+      color: $third-color;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -36,6 +37,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+        font-family: Segoe UI, Arial, sans-serif;
 
         @include respond(phone) {
           font-size: 2rem;
@@ -53,7 +55,7 @@
 
       @include respond(tab-land) {
         width: 400px;
-        margin: 0;  
+        margin: 0;
       }
 
       & .thumbnail {
