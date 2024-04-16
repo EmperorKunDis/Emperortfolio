@@ -1,4 +1,4 @@
-name: CI/CD for fsitsevice.com 
+name: CI/CD for www.unrealcodemperor.com
 
 on:
   push:
@@ -6,7 +6,10 @@ on:
       - master
       - dev
   pull_request:
-    branches: [ main ]
+    branches:
+        - "main"
+        - "dev"
+    types: [opened, synchronize]
 
 env:
   IMAGE_NAME: emperortfolio-web-dev
