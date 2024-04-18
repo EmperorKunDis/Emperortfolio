@@ -55,7 +55,7 @@ From your command line, first clone Emperortfolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/EmperorKunDis/MyWebsites
+$ git clone https://github.com/EmperorKunDis/Emperortfolio
 
 # Move into the repository
 $ cd emperortfolio
