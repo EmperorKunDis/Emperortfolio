@@ -8,6 +8,7 @@ p,
 a {
   font-family: "Montserrat", sans-serif;
   font-size: $default-font-size;
+  color: $third-color;
 }
 
 a,
@@ -20,6 +21,7 @@ a:active {
 
 a:hover {
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 
 .section-title {
@@ -42,9 +44,9 @@ a:hover {
   @include supportIE11() {
     color: $primary-color !important;
   }
-    &:hover {
-      color: $black-color !important;
-    }
+  &:hover {
+    color: $black-color !important;
+  }
   @include respond(phone) {
     background-image: none;
     -webkit-text-fill-color: $third-color;
@@ -52,7 +54,7 @@ a:hover {
 
   &:hover {
     transform: translateX(2px);
-  } 
+  }
 }
 
 .text-small-main {

@@ -29,6 +29,51 @@ let language = {
     buttonEnglish: "English",
     buttonGerman: "German",
     buttonCzech: "Czech",
+    aboutHidden: `In 2012 I returned from Prague to Cheb. After finishing my university studies I tried to 
+    to establish myself as a software developer in Prague. Unfortunately, I failed because my parents had no 
+    contacts in Prague and no financial background to help me settle down in the capital. Find a job 
+    in my field in Cheb turned out to be impossible. All my successful classmates worked for low wages at 02 
+    or T-Mobile or manual labor in printing shops. The only way to get a little to make a better living was 
+    to work in Germany. In 2012, I started working for a German company. Despite my education (primary, 
+    secondary, high school and university) and studies English for a total of more than 13 years (including 
+    2 years of IT English and 1.5 years of business English) I had to start at the lowest level. It took me 
+    almost 3 years to go from being a helper to to installing sockets. 
+    
+    Thanks to my logical thinking and experience with technical drawing, I quickly became familiar with 
+    technical documentation and assembly plans. After three years I became the leader of several small 
+    teams of electricians and we travelled all over Germany, building houses and installing office interiors. 
+    It was a good job with good pay and I was happy as a single man. Had it not been for the covid-19 pandemic, 
+    I would probably still be in that job today. But the covid-19 pandemic changed everything for me. It made 
+    traveling to the Montazes more difficult. At the same time, I found a wife, we started a family, and traveling 
+    for a weekly bazi or longer work montages was no longer an option for me. I had to find work close to the 
+    border. For six months I worked in a glass factory, sweeping floors. It was one of the worst period of my 
+    life. But then I finally decided to pursue my hobby of game development and programming to the fullest and 
+    I started to study very actively and look for ways to achieve my dream. Times have changed and today it is 
+    possible to find a good job in software development even in border regions, even in game development, which 
+    has always been my passion. 
+    
+    When the UE5 Matrix playable demo was released on 9 December 2021, I was excited. I had no idea that gaming 
+    industry had moved so far I always thought that without hundreds of people and hundreds of computers there 
+    was no game development I knew I had to download it at home, so I did, and I downloaded UE5 and the first 
+    spent over 30 hours on it the first weekend, found UnrealSensei on YouTube and did two tutorials. And it 
+    was amazing, and over the next couple of months I spent about 40-50 hours on it. a week. And I got into a 
+    situation where I can add everything and set everything up, but it doesn't have any functionality and it's 
+    not a game, it's just a world that you're free to move around in. And just when I thought I was going to be 
+    I'd have to look for a resource that would teach me how to actually develop games in UE and not just make a 
+    game where you can't play, I found a promotion on HumbleBundle for "Create Unreal 5 Engine Games Bundle" and 
+    bought the complete bundle with all the courses, which started the video game adventure. In the months and 
+    years that followed, I worked on a couple of projects on Game Jam, wrote a few websites, made a few assemblies, 
+    made a few concept games, moved a few I moved from the Czech Republic to Germany ( because I don't want my kids 
+    to do what I've been doing for years I learn something and then have nowhere to use it), my second daughter was 
+    born, I finally played on an official the WoW server, made a high level mage, and as part of the Bohemian Lions 
+    guild, I "made history". , built 3 drones and participated in several flying days at the airport in Cheb, he 
+    did incredible many different courses around game development mostly in Unreal Engine but not only in it, I 
+    learned programming in several programming languages (C++, C#, Java, JavaScript{I don't consider HTML and CSS 
+    programming languages}). And now I think the time is finally ripe and my skill to fully dive into my dream 
+    industry and help it move forward.
+    
+    I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
+    believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
     aboutme: "About Me",
     contacts: "Contacts",
@@ -70,10 +115,8 @@ let language = {
               target="_blank"
               class="cta-btn cta-btn--resume"
               href="mailto:martin.k.svanda@gmail.com"
-              >Call to Action</a
-            >
-        </div>
-      `,
+              >Call to Action</a>
+        </div>`,
     devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Svanda",
     basedon: "Based on work of",
   },
@@ -84,6 +127,62 @@ let language = {
     buttonEnglish: "Englisch",
     buttonCzech: "Tschechisch",
     buttonGerman: "Deutsch",
+    aboutHidden: `Im Jahr 2012 kehrte ich von Prag nach Cheb zurück. Nach Abschluss 
+    meines Studiums habe ich versucht mich als Softwareentwickler in Prag zu etablieren. 
+    Leider scheiterte ich, weil meine Eltern keine Kontakte in Prag und keinen finanziellen 
+    Hintergrund hatten, um mir zu helfen, mich in der Hauptstadt niederzulassen. Die Suche 
+    nach einem Job in meinem Fachgebiet in Cheb zu finden, erwies sich als unmöglich. Alle 
+    meine erfolgreichen Klassenkameraden arbeiteten zu Niedriglöhnen bei 02 oder T-Mobile 
+    oder als Hilfsarbeiter in Druckereien. Die einzige Möglichkeit, etwas für ein besseres 
+    Leben zu bekommen, war in Deutschland zu arbeiten. Im Jahr 2012 begann ich, für ein 
+    deutsches Unternehmen zu arbeiten. Trotz meiner Ausbildung (Grundschule, Sekundarstufe, 
+    Gymnasium und Universität) und insgesamt mehr als 13 Jahren Englischunterricht 
+    (einschließlich 2 Jahre IT-Englisch und 1,5 Jahre Wirtschaftsenglisch) musste ich auf 
+    dem niedrigsten Niveau anfangen. Ich brauchte fast 3 Jahre, um vom Helfer zum Installateur 
+    von Steckdosen zu werden. 
+        
+        Dank meines logischen Denkens und meiner Erfahrung mit technischen Zeichnungen wurde 
+    ich schnell mit technischen Unterlagen und Montageplänen vertraut. Nach drei Jahren wurde 
+    ich Leiter mehrerer kleiner Teams von Elektrikern und wir reisten durch ganz Deutschland, 
+    bauten Häuser und installierten Büroeinrichtungen. Es war ein guter Job mit guter Bezahlung 
+    und ich war glücklich als alleinstehender Mann. Wäre die Covid-19-Pandemie nicht gewesen, 
+    würde ich wahrscheinlich heute noch in diesem Beruf arbeiten. Aber die Covid-19-Pandemie hat 
+    alles für mich verändert. Sie erschwerte die Reisen zu den Montazes. Gleichzeitig habe ich eine 
+    Frau gefunden, wir gründeten eine Familie, und das Reisen für einen wöchentlichen Bazi oder 
+    längere Arbeitseinsätze kam für mich nicht mehr in Frage. Ich musste Arbeit in Grenznähe finden. 
+    Sechs Monate lang arbeitete ich in einer Glasfabrik und wischte Böden. Das war eine der 
+    schlimmsten Zeiten meines Lebens. Aber dann beschloss ich endlich, mein Hobby, die Spieleentwicklung 
+    und das Programmieren, in vollen Zügen zu genießen, und ich begann, sehr aktiv zu studieren und 
+    nach Wegen zu suchen, meinen Traum zu verwirklichen. Die Zeiten haben sich geändert und heute ist 
+    es möglich, auch in Grenzregionen einen guten Job in der Softwareentwicklung zu finden, sogar in 
+    der Spieleentwicklung, die schon immer meine Leidenschaft war. 
+    
+    Als die spielbare UE5 Matrix-Demo am 9. Dezember 2021 veröffentlicht wurde, war ich begeistert. 
+    Ich hatte keine Ahnung, dass sich die Spieleindustrie so weit entwickelt hatte. Ich dachte immer, 
+    dass es ohne Hunderte von Menschen und Hunderte von Computern keine Spieleentwicklung gibt. Ich 
+    wusste, dass ich es zu Hause herunterladen musste, also tat ich es, und ich lud UE5 herunter und 
+    verbrachte am ersten Wochenende über 30 Stunden damit. Und es war erstaunlich, und in den nächsten 
+    Monaten verbrachte ich etwa 40-50 Stunden pro Woche damit. Und ich bin in eine Situation geraten, 
+    in der ich alles hinzufügen und einrichten kann, aber es hat keine Funktionalität und es ist kein 
+    Spiel, es ist nur eine Welt, in der man sich frei bewegen kann. Und gerade als ich dachte, dass ich 
+    mich nach einer Ressource umsehen müsste, die mir beibringt, wie man tatsächlich Spiele in der UE 
+    entwickelt und nicht nur ein Spiel macht, das man nicht spielen kann, fand ich auf HumbleBundle 
+    eine Werbeaktion für "Create Unreal 5 Engine Games Bundle" und kaufte das komplette Bundle mit 
+    allen Kursen, womit das Videospielabenteuer begann. In den darauffolgenden Monaten und Jahren 
+    arbeitete ich an einigen Projekten bei Game Jam, schrieb ein paar Webseiten, erstellte ein paar 
+    Assemblies, machte ein paar Konzept-Spiele, zog ein paar Mal von der Tschechischen Republik nach 
+    Deutschland um (weil ich nicht will, dass es meinen Kindern so ergeht wie mir: Ich lerne etwas 
+    und kann es dann nirgendwo anwenden), meine zweite Tochter wurde geboren, ich spielte endlich 
+    auf einem offiziellen WoW-Server, erstellte einen hochstufigen Magier und schrieb als Teil der 
+    Gilde Bohemian Lions "Geschichte". Ich habe 3 Drohnen gebaut und an mehreren Flugtagen auf dem 
+    Flughafen in Cheb teilgenommen, unglaublich viele verschiedene Kurse rund um die Spieleentwicklung 
+    gemacht, hauptsächlich in der Unreal Engine, aber nicht nur darin, ich habe das Programmieren in 
+    mehreren Programmiersprachen gelernt (C++, C#, Java, JavaScript, HTML und CSS zähle ich nicht zu 
+    den Programmiersprachen). Und jetzt denke ich, dass die Zeit endlich reif ist und meine Fähigkeiten 
+    ausreichen, um mich voll und ganz in meine Traumindustrie zu stürzen und sie voranzubringen.
+    
+    In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
+    orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
     aboutme: "Über mich",
     contacts: "Kontakte",
@@ -97,17 +196,19 @@ let language = {
     morebutton: "Mehr Informationen",
     projectstitle: "Meine Projekte",
     seemore: "Mehr anzeigen",
-    projectbase:
-      "Im folgenden Abschnitt finden Sie eine Liste aller meiner " +
-      "Projekte, die bis heute überlebt haben. Leider sind mir aus technischen " +
-      "Gründen viele Daten verloren gegangen, vor allem aus der Zeit, als ich " +
-      "noch lernte. Gleichzeitig möchte ich darauf hinweisen, dass ich mir " +
-      "alles, was ich in den letzten zwei Jahren gelernt habe, selbst beigebracht " +
-      "habe. Ich hatte keine Anleitung und keine Hilfe und niemanden, der mich " +
-      "beraten hat, wie Git funktioniert oder welches Programm ich für die " +
-      "Erstellung einer Baugruppe verwenden sollte. Ich habe alles in der Zeit " +
-      "nach meinem normalen Job gelernt, bei dem ich das Backend in einer anderen " +
-      "Programmiersprache als der, in der ich entwickle, programmiere.",
+    projectbase: `
+      <br>Im folgenden Abschnitt finden Sie eine Liste aller meiner 
+      <br>Projekte, die bis heute überlebt haben. Leider sind mir aus 
+      <br>technischen Gründen viele Daten verloren gegangen, vor allem 
+      <br>aus der Zeit, als ich noch lernte. Gleichzeitig möchte ich 
+      <br>darauf hinweisen, dass ich mir alles, was ich in den letzten 
+      <br>zwei Jahren gelernt habe, selbst beigebracht habe. Ich hatte 
+      <br>keine Anleitung und keine Hilfe und niemanden, der mich 
+      <br>beraten hat, wie Git funktioniert oder welches Programm ich 
+      <br>für die Erstellung einer Baugruppe verwenden sollte. Ich 
+      <br>habe alles in der Zeit nach meinem normalen Job gelernt, 
+      <br>bei dem ich das Backend in einer anderen Programmiersprache 
+      als der, in der ich entwickle, programmiere.`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -141,6 +242,56 @@ let language = {
     buttonEnglish: "Anglický",
     buttonGerman: "Nemecký",
     buttonCzech: "Český",
+    aboutHidden: `Profesionální cesta softwarového vývojáře: Od zednictví k hernímu designu
+
+    V roce 2012 jsem se vrátil z Prahy do Chebu. Po ukončení vysokoškolského studia jsem se pokusil 
+    prosadit jako softwarový vývojář v Praze. Bohužel jsem neuspěl, protože moji rodiče neměli žádné 
+    kontakty v Praze ani finanční zázemí, které by mi pomohlo se v hlavním městě usadit. Najít práci 
+    v mém oboru v Chebu se ukázalo jako nemožné. Všichni moji uspesni spolužáci pracovali za nízké 
+    mzdy v 02 nebo T-Mobile nebo dělali manuální práci v tiskárnách. Jediný způsob, jak se trochu 
+    lepe uživit, se ukázala být práce v Německu. V roce 2012 jsem začal pracovat pro německou 
+    společnost. Navzdory svému vzdělání (základní, střední, střední a vysoké škole) a studiu 
+    angličtiny celkem více než 13 let (včetně 2 let IT angličtiny a 1,5 roku ekonomické angličtiny) 
+    jsem musel začítzačínat na nejnižší pozici. Trvalo mi skoro 3 roky, než jsem se z pomocníka se 
+    zbíječkou vypracoval k montáži zásuvek. 
+    
+    Díky svému logickému myšlení a zkušenostem s technickým kreslením jsem se rychle zorientoval v 
+    technické dokumentaci a montážních plánech. Po třech letech jsem se stal vedoucím několika malých 
+    týmů elektrikářů a jezdili jsme po celém Německu, stavěli rodinné domy a instalovali kancelářské 
+    interiéry. Byla to dobrá práce s dobrým platem a jako svobodný jsem byl šťastný. Nebýt pandemie 
+    covid-19, pravděpodobně bych v té práci byl dodnes. Pandemie covid-19 však pro mě všechno změnila. 
+    Zkomplikovalo to cestování za Montazemi. Zároveň jsem si našel manželku, založili jsme rodinu a 
+    cestování na týdenní bazi či delší pracovní montaze už pro mě nebyly možné. Musel jsem si najít 
+    práci blízko hranic. Půl roku jsem pracoval ve sklárně, zametal podlahu. Bylo to jedno z nejhorších 
+    období mého života. Tehdy jsem se však konečně rozhodl věnovat svému koníčku, vývoji her a 
+    programování naplno a začal jsem velmi aktivně studovat a hledat cesty, jak dosáhnout svého snu. 
+    Doba se změnila a dnes je možné najít dobrou práci v oblasti vývoje softwaru i v příhraničních 
+    regionech, a to i v oblasti vývoje her, ktere byly vzdy mou vasni. 
+    
+    Když 9. prosince 2021 vyšlo hratelné demo UE5 Matrix, byl jsem nadšen. Netušil jsem, že se herní 
+    průmysl posunul tak daleko vždy jsem myslel že bez stovek lidi a stovek pocitacu neni vývoj her 
+    mozny.Věděl jsem, že si to musím doma stáhnout.A tak jsem taky udelal stáhl jsem si UE5 a první 
+    víkend na něm strávil přes 30 hodin, našel UnrealSensei na YouTube a první víkend udělal dva 
+    tutoriály. A bylo to úžasné a během následujících pár měsíců jsem nad tím strávil asi 40-50 hodin 
+    týdně. A dostal jsem se do situace, kdy mohu vše přidat a vše nastavit, ale nemá to žádnou funkci 
+    a není to hra, jen svět, kterým se můžete volně pohybovat. A právě když jsem si myslel, že budu 
+    muset hledat zdroj, který by mě naučil vyvíjet hry v UE jak skutecne vyvijet ne jen tvořit hriste 
+    kde si neni mozne hrat, objevil jsem na HumbleBundle promo akci na „Create Unreal 5 Engine Games 
+    Bundle“ a koupil jsem si kompletní balíček s všechny kurzy tim zapocalo videoherni dobrodruzstvi. 
+    Nasledni v nadcházejících měsících a letech jsem se podilel parkrat na nejakych projektech na Game 
+    Jamu, napsal nekolik webovych stranek, udelal nekolik assetu,vyrobil par konceptu her prestehoval 
+    jsem se z ceske republiky do nemecka ( protoze nechci aby se mym detem stalo to co me ze se roky 
+    neco ucim a pak to neni kde vyuzit ), narodila se mi druha dcera, konecne sem hral na oficialnim 
+    serveru WoW vyexpil mage na high level a s jako soucast guildy Bohemian Lions se “zapsal do dejin”
+    , postavil 3 drony a podilel se na nekolika leteckych dnech na letisti v Chebu, udelal neskutecne 
+    mnozstvi ruznych kurzu kolem vývoje her vetsinou v Unreal Engine ale ne jen v nem, naucil sem se 
+    programovat v nekolik programovacich jazycich (C++, C#, Java, JavaScript{HTML a CSS nepovazuji za 
+    programovaci jazyky}). A ted myslim ze konecne dozral cas a muj skill abych se naplno vrhl do 
+    vysneneho prumyslu a pomohl mu se posunut.
+    
+    Jsem hlavne otec, manzel, hrac, fanousek Star Wars, programator a technicky zalozeny ateista ktery 
+    veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
+    `,
     home: "Domaci obrazovka",
     aboutme: "O mne",
     contacts: "Kontakty",
@@ -155,15 +306,17 @@ let language = {
     morebutton: "Vice Informaci",
     projectstitle: "Moje Projekty",
     seemore: "Ukazat Vic",
-    projectbase:
-      "V nasledujici sekci je vytah vsech mych projektu ktere se " +
-      "dochovali do dnesnich dob. Bohuzel z technickych duvodu sem prisel o velke " +
-      "mnozstvi dat prevazne z obdobi kdy jsem se ucil. Zaroven bych rad poukazal " +
-      "na to ze vsechno co jsem se naucil za posledni dva roky, sem se naucil sam " +
-      "na vlastni pest. Nemel sem zadne vedeni a zadnou pomoc ani nikoho kdo by mi " +
-      "poradil treba i jen to jak funguje git nebo jaky program pouzit pro vyrobu " +
-      "assetu. Vsechno jsem nastudoval v case po sve standartni praci kde " +
-      "programuji backend v jinem programovaci jazyce nez v kterem vyvyjim.",
+    projectbase: `
+      <br>V nasledujici sekci je vytah vsech mych projektu ktere se 
+      <br>dochovali do dnesnich dob. Bohuzel z technickych duvodu sem 
+      <br>prisel o velke mnozstvi dat prevazne z obdobi kdy jsem se 
+      <br>ucil. Zaroven bych rad poukazal na to ze vsechno co jsem se 
+      <br>naucil za posledni dva roky, sem se naucil sam na vlastni 
+      <br>pest. Nemel sem zadne vedeni a zadnou pomoc ani nikoho kdo 
+      <br>by mi poradil treba i jen to jak funguje git nebo jaky 
+      <br>program pouzit pro vyrobu assetu. Vsechno jsem nastudoval 
+      <br>v case po sve standartni praci kde programuji backend v 
+      <br>jinem programovaci jazyce nez v kterem vyvyjim.`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
