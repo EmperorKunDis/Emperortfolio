@@ -26,7 +26,7 @@ let language = {
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
-    buttonEnglish: "it English",
+    buttonEnglish: "English",
     buttonGerman: "German",
     buttonCzech: "Czech",
     home: "Home",
@@ -81,7 +81,7 @@ let language = {
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
-    buttonEnglish: " is Englisch",
+    buttonEnglish: "Englisch",
     buttonCzech: "Tschechisch",
     buttonGerman: "Deutsch",
     home: "Startseite",
@@ -138,7 +138,7 @@ let language = {
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
-    buttonEnglish: " ready Anglický",
+    buttonEnglish: "Anglický",
     buttonGerman: "Nemecký",
     buttonCzech: "Český",
     home: "Domaci obrazovka",
