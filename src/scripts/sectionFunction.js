@@ -4,26 +4,34 @@ const contactsButton = document.getElementById("gammaButton");
 
 const aboutHidden = document.getElementById("aboutHidden");
 const heroHidden = document.getElementById("heroHidden");
+const projectsHidden = document.getElementById("projectsHidden");
 
 const heroVis = document.getElementById("heroVis");
 const aboutVis = document.getElementById("aboutVis");
+const projectsVis = document.getElementById("projectsVis");
 
 let aboutVisible = null;
 
 aboutButton.addEventListener("click", () => {
     if (aboutVisible === true) {
-    aboutHidden.classList.add("hidden");
-    heroHidden.classList.add("hidden");
+    aboutHiddenAbout.classList.add("hidden");
+    heroHiddenAbout.classList.add("hidden");
+    projectsHiddenAbout.classList.add("hidden");
 
     heroVis.classList.remove("hidden");
     aboutVis.classList.remove("hidden");
+    projectsVis.classList.remove("hidden");
+
     aboutVisible = false;
   } else {
-    aboutHidden.classList.remove("hidden");
-    heroHidden.classList.remove("hidden");
+    aboutHiddenAbout.classList.remove("hidden");
+    heroHiddenAbout.classList.remove("hidden");
+    projectsHiddenAbout.classList.remove("hidden");
 
     heroVis.classList.add("hidden");
     aboutVis.classList.add("hidden");
+    projectsVis.classList.add("hidden");
+
     aboutVisible = true;
   }
 });
