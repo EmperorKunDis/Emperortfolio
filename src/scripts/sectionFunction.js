@@ -3,20 +3,27 @@ const projectButton = document.getElementById("betaButton");
 const contactsButton = document.getElementById("gammaButton");
 
 const aboutHidden = document.getElementById("aboutHidden");
+const heroHidden = document.getElementById("heroHidden");
 
 const heroVis = document.getElementById("heroVis");
-const baseSec03 = document.getElementById("baseSec03");
+const aboutVis = document.getElementById("aboutVis");
 
 let aboutVisible = null;
 
 aboutButton.addEventListener("click", () => {
     if (aboutVisible === true) {
     aboutHidden.classList.add("hidden");
+    heroHidden.classList.add("hidden");
+
     heroVis.classList.remove("hidden");
+    aboutVis.classList.remove("hidden");
     aboutVisible = false;
   } else {
     aboutHidden.classList.remove("hidden");
+    heroHidden.classList.remove("hidden");
+
     heroVis.classList.add("hidden");
+    aboutVis.classList.add("hidden");
     aboutVisible = true;
   }
 });
