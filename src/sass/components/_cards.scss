@@ -1,0 +1,151 @@
+#container{
+	box-shadow: 0 15px 30px 1px grey;
+	background: $third-color;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 450px;
+	width: 80% auto;	
+}
+.product-details {
+	position: relative;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 15%;
+}
+#container .product-details h1{
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+	color: $third-color;
+	margin: 0;	
+}
+#container .product-details h1:before{
+	position: relative;
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	display: inline;
+	background: $primary-color;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 5px;
+	color: $secondary-color;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+}
+#container .product-details > p {
+	font-size: 18px;
+	color: $third-color;	
+}
+.control{
+	position: absolute;
+	bottom: 5%;
+	left: 22.8%;	
+}
+
+.btn01, .btn02, .btn03, .btn04, .btn05 {
+	transform: translateX(-30%);
+	transition: 0.3s linear;
+	max-width: 80%;
+	min-width: 80%;
+	background:  $third-color;
+	border-radius: 5px;
+    overflow: hidden;
+	outline: none;
+	border: none;
+	color: $primary-color;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5%;	
+}
+
+.btn01:hover{transform: translateX(6px); background: $secondary-color;}
+.btn02:hover{transform: translateX(6px); background: $secondary-color;}
+.btn03:hover{transform: translateX(6px); background: $secondary-color;}
+.btn04:hover{transform: translateX(6px); background: $secondary-color;}
+.btn05:hover{transform: translateX(6px); background: $secondary-color;};
+
+.btnAboutSec {
+	text-align: Centre; 
+	font-size: 1.5rem;
+	transition: transform 0.3s;
+    padding: 5% 50px auto;
+	font-size: 1.2em;
+	margin:0;
+}
+
+.arrow01, .arrow02, .arrow03, .arrow04, .arrow05 {
+	transform: translateX(80px);	
+}
+
+.btn01 .arrow01, .btn02 .arrow02, .btn03 .arrow03, .btn04 .arrow04, .btn05 .arrow05{
+  transform: translateX(160px);
+	border: 0;
+	margin: 0;
+}
+.btn01 .arrow01, .btn02 .arrow02, .btn03 .arrow03, .btn04 .arrow04, .btn05 .arrow05 {
+	transform: translateX(-10%); 
+  max-width: 80px;
+  padding-right: 0px;
+}
+.btn01 .arrow01, .btn02 .arrow02, .btn03 .arrow03, .btn04 .arrow04, .btn05 .arrow05 {
+	z-index: 1;
+  	right: 0;
+  	top: 0;
+}
+
+
+
+.btn01:hover{transform: translateX(0px); background: #1a66ff;}
+
+.btn02:hover{transform: translateX(0px); background: #1a66ff;}
+
+.btn03:hover{transform: translateX(0px); background: #1a66ff;}
+
+.btn04:hover{transform: translateX(0px); background: #1a66ff;}
+
+.btn05:hover{transform: translateX(0px); background: #1a66ff;}
+
+
+.btn01:hover .arrow01 {transform: translateX(120px);}
+
+.btn02:hover .arrow02 {transform: translateX(120px);}
+
+.btn03:hover .arrow03 {transform: translateX(120px);}
+
+.btn04:hover .arrow04 {transform: translateX(120px);}
+
+.btn05:hover .arrow05 {transform: translateX(120px);}
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	width: 80%;
+	display: inline-block;
+}
+#container img {width: 100%;height: 100%;}
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    font-family: 'Bree Serif', serif;
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 105%;
+    cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.info h2 {text-align: center}
+.info ul li{transition: 0.3s ease;}
+.info ul li:hover{transform: translateX(50px) scale(1.3);}
