@@ -3,19 +3,19 @@ const projectButton = document.getElementById("betaButton");
 const contactButton = document.getElementById("gammaButton");
 
 const heroVis = document.getElementById("heroVis");
-const aboutVis = document.getElementById("aboutVis");
-const projectVis = document.getElementById("projectVis");
-
-const aboutHiddenAbout = document.getElementById("aboutHiddenAbout");
 const heroHiddenAbout = document.getElementById("heroHiddenAbout");
-const projectHiddenAbout = document.getElementById("projectHiddenAbout");
-
-const aboutHiddenProject = document.getElementById("aboutHiddenProject");
 const heroHiddenProject = document.getElementById("heroHiddenProject");
-const projectHiddenProject = document.getElementById("projectHiddenProject");
-
-const aboutHiddenContact = document.getElementById("aboutHiddenContact");
 const heroHiddenContact = document.getElementById("heroHiddenContact");
+
+
+const aboutVis = document.getElementById("aboutVis");
+const aboutHiddenAbout = document.getElementById("aboutHiddenAbout");
+const aboutHiddenProject = document.getElementById("aboutHiddenProject");
+const aboutHiddenContact = document.getElementById("aboutHiddenContact");
+
+const projectVis = document.getElementById("projectVis");
+const projectHiddenAbout = document.getElementById("projectHiddenAbout");
+const projectHiddenProject = document.getElementById("projectHiddenProject");
 const projectHiddenContact = document.getElementById("projectHiddenContact");
 
 
