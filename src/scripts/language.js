@@ -87,7 +87,7 @@ let language = {
     morebutton: "More Informations",
     projectstitle: "My Projects",
     seemore: "See More",
-    projectbase:
+    projectVisBase:
       "In the following section is a list of all my projects that " +
       "have survived until today. Unfortunately for technical reasons I lost a " +
       "lot of data mostly from the period when I was learning. At the same time " +
@@ -196,7 +196,7 @@ let language = {
     morebutton: "Mehr Informationen",
     projectstitle: "Meine Projekte",
     seemore: "Mehr anzeigen",
-    projectbase: `
+    projectVisBase:`
       <br>Im folgenden Abschnitt finden Sie eine Liste aller meiner 
       <br>Projekte, die bis heute überlebt haben. Leider sind mir aus 
       <br>technischen Gründen viele Daten verloren gegangen, vor allem 
@@ -306,7 +306,7 @@ let language = {
     morebutton: "Vice Informaci",
     projectstitle: "Moje Projekty",
     seemore: "Ukazat Vic",
-    projectbase: `
+    projectVisBase: `
       <br>V nasledujici sekci je vytah vsech mych projektu ktere se 
       <br>dochovali do dnesnich dob. Bohuzel z technickych duvodu sem 
       <br>prisel o velke mnozstvi dat prevazne z obdobi kdy jsem se 
@@ -365,7 +365,7 @@ if (window.location.hash) {
     morebutton.textContent = language.de.morebutton;
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
-    projectbase.textContent = language.de.projectbase;
+    projectVisBase.textContent = language.de.projectbase;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -386,6 +386,6 @@ if (window.location.hash) {
     morebutton.textContent = language.cz.morebutton;
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
-    projectbase.textContent = language.cz.projectbase;
+    projectVisBase.textContent = language.cz.projectbase;
   }
 }
