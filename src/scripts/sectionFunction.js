@@ -28,9 +28,7 @@ aboutButton.addEventListener("click", () => {
     heroHiddenAbout.classList.remove("hidden");
     projectsHiddenAbout.classList.remove("hidden");
 
-    heroVis.classList.add("hidden");
-    aboutVis.classList.add("hidden");
-    projectsVis.classList.add("hidden");
+    hideOrigin();
 
     aboutVisible = true;
   }
@@ -59,16 +57,20 @@ projectButton.addEventListener("click", () => {
     heroHiddenProject.classList.remove("hidden");
     projectsHiddenProject.classList.remove("hidden");
 
-    heroVis.classList.add("hidden");
-    aboutVis.classList.add("hidden");
-    projectsVis.classList.add("hidden");
+    hideOrigin();
 
     projectVisible = true;
   }
 });
 
 
+function hideOrigin() {
 
+    heroVis.classList.add("hidden");
+    aboutVis.classList.add("hidden");
+    projectsVis.classList.add("hidden");
+
+};
 
 
 /*
