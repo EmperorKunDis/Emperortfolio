@@ -74,17 +74,17 @@
             <button id="homeButton" class="vole-hidden"><a id="home" class="nav-link" href="#top">Home</a></button>
           </li>
           <li class="nav-item">
-            <button id="aboutButton" class="vole-hidden">
+            <button id="aboutButton" onclick="aboutButtonFunk()" class="vole-hidden">
               <a id="aboutButton" class="nav-link">About me</a>
             </button>
           </li>
           <li class="nav-item">
-            <button id="projectButton" class="vole-hidden">
+            <button id="projectButton" onclick="projectButtonFunk() class="vole-hidden">
               <a id="projectButton" class="nav-link" href="#projects">Projects</a>
             </button>
           </li>
           <li class="nav-item">
-            <button id="contactButton" class="vole-hidden">
+            <button id="contactButton" onclick="contactButtonFunk() class="vole-hidden">
               <a id="contactButton" class="nav-link" href="#contact">Contacts</a>
             </button>
           </li>
@@ -199,42 +199,6 @@
                   <a rel="noreferrer" href="#" target="_blank">
                     <div data-tilt data-tilt-max="4" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
                     <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image1.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image2.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image3.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image4.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image5.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image6.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image7.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image8.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image9.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image10.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image12.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image13.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image14.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image15.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image16.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image17.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image18.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image19.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image20.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image21.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image22.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image23.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image24.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image25.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image26.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image27.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image28.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image29.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image30.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image33.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image34.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image35.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image36.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image37.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image38.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image39.png"/>
-                    <img alt="Project Image" class="mySlides w3-animate-fading img-fluid" src="assets/pics/all/image40.png"/>
                   </div>
                  </a>
                 </div>
@@ -422,7 +386,7 @@
     </div>
     <!-- /END About Section --> 
     <!-- **** Projects Section **** -->
-    <section id="projectsVis">
+    <section id="projectVis">
       <div id="prosec" class="container">
         <div class="project-wrapper">
           <h2 id="projectstitle" class="section-title dark-blue-text">My Projects</h2>
@@ -602,8 +566,6 @@
     </section>
     <section id="projectHiddenContact" style="margin-top: 60px;" class="hidden">
     </section>
-    <!-- /END Projects Section -->
-    <!-- **** Contact Section **** -->
     <section id="contact">
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -628,8 +590,6 @@
             >
         </div>
     </section>
-    <!-- /END Contact Section -->
-    <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
@@ -658,8 +618,6 @@
         </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
-
     <script defer type="module" src="index.js"></script>
     <script>function toggleDropdown() {
       var dropdown = document.getElementById("myDropdown");
@@ -680,6 +638,8 @@
       }
     </script>
     <script src="./scripts/language.js"></script>
-    <script defer type="onclick" src="./scripts/sectionFunction.js"></script>
+    <script src="./scripts/aboutSection.js"></script>
+    <script src="./scripts/contactSection.js"></script>
+    <script src="./scripts/projectSection.js"></script>
   </body>
 </html>
