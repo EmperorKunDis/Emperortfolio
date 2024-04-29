@@ -75,7 +75,7 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    aboutme: "About Me",
+    aboutButton: "About Me",
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -87,15 +87,31 @@ let language = {
     morebutton: "More Informations",
     projectstitle: "My Projects",
     seemore: "See More",
-    projectbase:
-      "In the following section is a list of all my projects that " +
-      "have survived until today. Unfortunately for technical reasons I lost a " +
-      "lot of data mostly from the period when I was learning. At the same time " +
-      "I would like to point out that everything I have learned in the last two " +
-      "years I have learned on my own. I had no guidance and no help or anyone to " +
-      "advise me on how git works or what program to use to make an assembly. I " +
-      "studied everything in the time after my standard job where I program the " +
-      "backend in a different programming language than the one I develop in.",
+    projectbase: "The Professional Journey of a Software Developer:",
+    projectbase01: "From Bricklaying to Game Design",
+    projectbase02: `
+    In 2012 I returned from Prague to Cheb. After finishing my university studies I tried to to establish myself as a 
+    software developer in Prague. Unfortunately, I failed because my parents had no contacts in Prague and no 
+    financial background to help me settle down in the capital. Find a job 
+    in my field in Cheb turned out to be impossible. All my successful classmates worked for low wages at 02 
+    or T-Mobile or manual labor in printing shops. The only way to get a little to make a better living was 
+    to work in Germany. In 2012, I started working for a German company. Despite my education (primary, 
+    secondary, high school and university) and studies English for a total of more than 13 years (including 
+    2 years of IT English and 1.5 years of business English) I had to start at the lowest level. It took me 
+    almost 3 years to go from being a helper to to installing sockets. `,
+    projectbase03: `
+    Thanks to my logical thinking and experience with technical drawing, I quickly became familiar with 
+    technical documentation and assembly plans. After three years I became the leader of several small 
+    teams of electricians and we travelled all over Germany, building houses and installing office interiors. 
+    It was a good job with good pay and I was happy as a single man. Had it not been for the covid-19 pandemic, 
+    I would probably still be in that job today. But the covid-19 pandemic changed everything for me. It made 
+    traveling to the Montazes more difficult. At the same time, I found a wife, we started a family, and traveling 
+    for a weekly bazi or longer work montages was no longer an option for me. I had to find work close to the 
+    border. For six months I worked in a glass factory, sweeping floors. It was one of the worst period of my 
+    life. But then I finally decided to pursue my hobby of game development and programming to the fullest and 
+    I started to study very actively and look for ways to achieve my dream. Times have changed and today it is 
+    possible to find a good job in software development even in border regions, even in game development, which 
+    has always been my passion.`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -184,7 +200,7 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    aboutme: "Über mich",
+    aboutButton: "Über mich",
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
@@ -196,19 +212,31 @@ let language = {
     morebutton: "Mehr Informationen",
     projectstitle: "Meine Projekte",
     seemore: "Mehr anzeigen",
-    projectbase: `
-      <br>Im folgenden Abschnitt finden Sie eine Liste aller meiner 
-      <br>Projekte, die bis heute überlebt haben. Leider sind mir aus 
-      <br>technischen Gründen viele Daten verloren gegangen, vor allem 
-      <br>aus der Zeit, als ich noch lernte. Gleichzeitig möchte ich 
-      <br>darauf hinweisen, dass ich mir alles, was ich in den letzten 
-      <br>zwei Jahren gelernt habe, selbst beigebracht habe. Ich hatte 
-      <br>keine Anleitung und keine Hilfe und niemanden, der mich 
-      <br>beraten hat, wie Git funktioniert oder welches Programm ich 
-      <br>für die Erstellung einer Baugruppe verwenden sollte. Ich 
-      <br>habe alles in der Zeit nach meinem normalen Job gelernt, 
-      <br>bei dem ich das Backend in einer anderen Programmiersprache 
-      als der, in der ich entwickle, programmiere.`,
+    projectbase: "Der berufliche Werdegang eines Softwareentwicklers:",
+    projectbase01: "Vom Maurerhandwerk zum Spieldesign",
+    projectbase02: `
+    Im Jahr 2012 kehrte ich von Prag nach Cheb zurück. Nach Abschluss meines Studiums habe ich versucht, mich in Prag als 
+    Softwareentwickler in Prag zu etablieren. Leider scheiterte ich daran, dass meine Eltern keine Kontakte in Prag hatten und keinen 
+    finanziellen Hintergrund hatten, um mir zu helfen, mich in der Hauptstadt niederzulassen. Die Suche nach einem Job 
+    in meinem Fachgebiet in Cheb zu finden, erwies sich als unmöglich. Alle meine erfolgreichen Klassenkameraden arbeiteten zu Niedriglöhnen bei 02 
+    oder T-Mobile oder als Hilfsarbeiter in Druckereien. Die einzige Möglichkeit, etwas für ein besseres Leben zu bekommen, war 
+    in Deutschland zu arbeiten. Im Jahr 2012 begann ich, für ein deutsches Unternehmen zu arbeiten. Trotz meiner Ausbildung (Grundschule, 
+    Sekundarstufe, Gymnasium und Universität) und insgesamt mehr als 13 Jahren Englischunterricht (einschließlich 
+    2 Jahre IT-Englisch und 1,5 Jahre Wirtschaftsenglisch) musste ich auf dem niedrigsten Niveau anfangen. Ich brauchte 
+    Es dauerte fast 3 Jahre, um vom Helfer zum Installateur von Steckdosen zu werden. `,
+    projectbase03: `
+    Dank meines logischen Denkens und meiner Erfahrung im technischen Zeichnen habe ich mich schnell mit 
+    technischen Dokumentationen und Montageplänen vertraut. Nach drei Jahren wurde ich Leiter von mehreren kleinen 
+    Teams von Elektrikern und wir reisten durch ganz Deutschland, bauten Häuser und installierten Büroeinrichtungen. 
+    Es war ein guter Job mit guter Bezahlung und ich war glücklich als alleinstehender Mann. Wäre da nicht die Covid-19-Pandemie gewesen, 
+    würde ich wahrscheinlich heute noch in diesem Job arbeiten. Aber die Covid-19-Pandemie hat alles für mich verändert. Sie machte 
+    Reisen zu den Montazes erschwert. Gleichzeitig habe ich eine Frau gefunden, wir haben eine Familie gegründet, und das Reisen 
+    für ein wöchentliches Bazi oder längere Arbeitseinsätze kam für mich nicht mehr in Frage. Ich musste eine Arbeit in der Nähe der 
+    Grenze finden. Sechs Monate lang arbeitete ich in einer Glasfabrik und wischte Böden. Das war eine der schlimmsten Perioden in meinem 
+    Lebens. Aber dann beschloss ich, mein Hobby, die Spieleentwicklung und das Programmieren, in vollen Zügen zu genießen. 
+    Ich begann, sehr aktiv zu studieren und nach Wegen zu suchen, meinen Traum zu verwirklichen. Die Zeiten haben sich geändert und heute ist es 
+    ist es möglich, auch in Grenzregionen einen guten Job in der Softwareentwicklung zu finden, sogar in der Spieleentwicklung, die 
+    immer meine Leidenschaft war. `,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -293,7 +321,7 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domaci obrazovka",
-    aboutme: "O mne",
+    aboutButton: "O mne",
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -306,17 +334,31 @@ let language = {
     morebutton: "Vice Informaci",
     projectstitle: "Moje Projekty",
     seemore: "Ukazat Vic",
-    projectbase: `
-      <br>V nasledujici sekci je vytah vsech mych projektu ktere se 
-      <br>dochovali do dnesnich dob. Bohuzel z technickych duvodu sem 
-      <br>prisel o velke mnozstvi dat prevazne z obdobi kdy jsem se 
-      <br>ucil. Zaroven bych rad poukazal na to ze vsechno co jsem se 
-      <br>naucil za posledni dva roky, sem se naucil sam na vlastni 
-      <br>pest. Nemel sem zadne vedeni a zadnou pomoc ani nikoho kdo 
-      <br>by mi poradil treba i jen to jak funguje git nebo jaky 
-      <br>program pouzit pro vyrobu assetu. Vsechno jsem nastudoval 
-      <br>v case po sve standartni praci kde programuji backend v 
-      <br>jinem programovaci jazyce nez v kterem vyvyjim.`,
+    projectbase: "Profesní kariéra vývojáře softwaru:",
+    projectbase01: "Od zedničení k hernímu designu",
+    projectbase02: `
+    Do Chebu jsem se vrátil z Prahy v roce 2012. Po ukončení studií jsem se snažila v Praze prosadit jako 
+    softwarového vývojáře v Praze. Bohužel se mi to nepodařilo, protože moji rodiče neměli v Praze žádné kontakty a finanční zázemí. 
+    finanční zázemí, které by mi pomohlo se v hlavním městě usadit. Hledání práce 
+    v mém oboru v Chebu se ukázalo jako nemožné. Všichni moji úspěšní spolužáci pracovali za nízké mzdy v 02 
+    nebo T-Mobile nebo jako dělníci v tiskárnách. Jedinou možností, jak získat něco pro lepší život, byla práce v Německu. 
+    pracovat v Německu. V roce 2012 jsem začal pracovat pro německou společnost. Navzdory mému vzdělání (základní škola, 
+    střední škole, gymnáziu a vysoké škole) a celkem více než 13 letům výuky angličtiny (mj. 
+    2 let IT angličtiny a 1,5 roku obchodní angličtiny) jsem musel začít na nejnižší úrovni. Trvalo mi to 
+    Trvalo mi téměř 3 roky, než jsem se od pomocné síly dostal k instalaci zásuvek. `,
+    projectbase03: `
+    Díky svému logickému myšlení a zkušenostem s technickým kreslením jsem se rychle seznámil s technickými znalostmi. 
+    seznámil s technickou dokumentací a montážními plány. Po třech letech jsem se stal vedoucím několika malých 
+    týmů elektrikářů a cestovali jsme po celém Německu, stavěli domy a instalovali kancelářské vybavení. 
+    Byla to dobrá práce s dobrým platem a jako svobodný muž jsem byl šťastný. Nebýt pandemie Covid-19, 
+    pravděpodobně bych v té práci pracoval dodnes. Ale pandemie Covid-19 pro mě všechno změnila. Přiměla mě 
+    ztížilo cestování do Montazu. Zároveň jsem si našel ženu, založili jsme rodinu a cestování se začalo rozvíjet. 
+    Cestování na týdenní bazi nebo delší pracovní nasazení už pro mě nepřipadalo v úvahu. Musel jsem si najít práci poblíž hranic. 
+    Hranice. Půl roku jsem pracoval ve sklárně, kde jsem vytíral podlahy. Bylo to jedno z nejhorších období mého života. 
+    života. Pak jsem se ale rozhodl, že si svůj koníček, vývoj her a programování, užiju naplno. 
+    Začal jsem velmi aktivně studovat a hledat cesty, jak svůj sen uskutečnit. Doba se změnila a dnes je 
+    možné najít dobrou práci v oblasti vývoje softwaru i v pohraničních oblastech, a to i v oblasti vývoje her, který byl vždy mou vášní. 
+    který byl vždy mou vášní. `,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
@@ -351,7 +393,7 @@ if (window.location.hash) {
     buttonCzech.textContent = language.de.buttonCzech;
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
-    aboutme.textContent = language.de.aboutme;
+    aboutButton.textContent = language.de.aboutButton;
     contacts.textContent = language.de.contacts;
     project.textContent = language.de.project;
     devby.textContent = language.de.devby;
@@ -372,7 +414,7 @@ if (window.location.hash) {
     buttonGerman.textContent = language.cz.buttonGerman;
     buttonCzech.textContent = language.cz.buttonCzech;
     home.textContent = language.cz.home;
-    aboutme.textContent = language.cz.aboutme;
+    aboutButton.textContent = language.cz.aboutButton;
     contacts.textContent = language.cz.contacts;
     project.textContent = language.cz.project;
     devby.textContent = language.cz.devby;
