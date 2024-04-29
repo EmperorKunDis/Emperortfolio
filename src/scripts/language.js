@@ -86,6 +86,14 @@ let language = {
     tryAnakin: "↓↓↓ Try somethink like Anakin ↓↓↓",
     morebutton: "More Informations",
     projectstitle: "My Projects",
+    projectsEntry: `In the following section is a list of all my projects that 
+    have survived until today. Unfortunately for technical reasons I lost a 
+    lot of data mostly from the period when I was learning. At the same time 
+    I would like to point out that everything I have learned in the last two 
+    years I have learned on my own. I had no guidance and no help or anyone to 
+    advise me on how git works or what program to use to make an assembly. I 
+    studied everything in the time after my standard job where I program the 
+    backend in a different programming language than the one I develop in.`,
     seemore: "See More",
     projectbase: "The Professional Journey of a Software Developer:",
     projectbase01: "From Bricklaying to Game Design",
@@ -234,6 +242,14 @@ let language = {
     tryAnakin: "↓↓↓ Versuchen Sie etwas wie Anakin ↓↓↓",
     morebutton: "Mehr Informationen",
     projectstitle: "Meine Projekte",
+    projectsEntry: `Im folgenden Abschnitt finden Sie eine Liste aller meiner Projekte haben 
+    bis heute überlebt. Leider habe ich aus technischen Gründen eine verloren Viele Daten, 
+    hauptsächlich aus der Zeit, als ich lernte. Gleichzeitig Ich möchte darauf hinweisen, 
+    dass alles, was ich in den letzten beiden gelernt habe Jahre, die ich alleine gelernt 
+    habe. Ich hatte keine Anleitung und keine Hilfe oder irgendjemanden Raten Sie mir, wie 
+    Git funktioniert oder welches Programm ich zum Erstellen einer Assembly verwenden soll. Ich 
+    habe in der Zeit nach meinem Standardjob, bei dem ich das programmiere, alles studiert 
+    Backend in einer anderen Programmiersprache als der, in der ich entwickle.`,
     seemore: "Mehr anzeigen",
     projectbase: "Der berufliche Werdegang eines Softwareentwicklers:",
     projectbase01: "Vom Maurerhandwerk zum Spieldesign",
@@ -379,6 +395,13 @@ let language = {
     tryAnakin: "↓↓↓ Zkusit to jako Anakin ↓↓↓",
     morebutton: "Vice Informaci",
     projectstitle: "Moje Projekty",
+    projectsEntry: `
+    V následující části je seznam všech mých projektů, které přežily až do dnešního dne. Bohužel jsem 
+    z technických důvodů ztratil spoustu dat převážně z období, kdy jsem se učil. Současně bych chtěl 
+    zdůraznit, že vše, co jsem se naučil v posledních dvou letech jsem se naučil sám. Neměl jsem žádné 
+    vedení, žádnou pomoc ani nikoho, kdo by mi pomohl. mi poradil, jak funguje git nebo jaký program 
+    použít k vytvoření sestavy. I všechno jsem se učil v době po své standardní práci, kde jsem programoval
+     backend v jiném programovacím jazyce, než ve kterém vyvíjím.`,
     seemore: "Ukazat Vic",
     projectbase: "Profesní kariéra vývojáře softwaru:",
     projectbase01: "Od zedničení k hernímu designu",
