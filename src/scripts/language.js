@@ -75,7 +75,7 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    aboutButton: "About Me",
+    aboutButton: `<a id="#" class="nav-link">About me</a>`,
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -112,6 +112,29 @@ let language = {
     I started to study very actively and look for ways to achieve my dream. Times have changed and today it is 
     possible to find a good job in software development even in border regions, even in game development, which 
     has always been my passion.`,
+    projectbase04: `From See it to Do it`,
+    projectbase05: ` When the UE5 Matrix playable demo was released on 9 December 2021, I was excited. I had no idea that gaming 
+    industry had moved so far I always thought that without hundreds of people and hundreds of computers there 
+    was no game development I knew I had to download it at home, so I did, and I downloaded UE5 and the first 
+    spent over 30 hours on it the first weekend, found UnrealSensei on YouTube and did two tutorials. And it 
+    was amazing, and over the next couple of months I spent about 40-50 hours on it. a week. And I got into a 
+    situation where I can add everything and set everything up, but it doesn't have any functionality and it's 
+    not a game, it's just a world that you're free to move around in. And just when I thought I was going to be 
+    I'd have to look for a resource that would teach me how to actually develop games in UE and not just make a 
+    game where you can't play, I found a promotion on HumbleBundle for "Create Unreal 5 Engine Games Bundle" and 
+    bought the complete bundle with all the courses, which started the video game adventure. `,
+    projectbase06: `
+    In the months and years that followed, I worked on a couple of projects on Game Jam, wrote a few websites, made 
+    a few assemblies, made a few concept games, moved a few I moved from the Czech Republic to Germany ( because I 
+    don't want my kids to do what I've been doing for years I learn something and then have nowhere to use it), my 
+    second daughter was born, I finally played on an official the WoW server, made a high level mage, and as part 
+    of the Bohemian Lions guild, I "made history". , built 3 drones and participated in several flying days at the 
+    airport in Cheb, he did incredible many different courses around game development mostly in Unreal Engine but 
+    not only in it, I learned programming in several programming languages (C++, C#, Java, JavaScript{I don't 
+    consider HTML and CSS programming languages}). And now I think the time is finally ripe and my skill to fully 
+    dive into my dream industry and help it move forward.`,
+    projectbase07: `<b>I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
+    believes that with hard work and dedication, any kind of success is possible.</b>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -200,7 +223,7 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    aboutButton: "Über mich",
+    aboutButton: `<a id="#" class="nav-link">Über mich</a>`,
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
@@ -237,6 +260,29 @@ let language = {
     Ich begann, sehr aktiv zu studieren und nach Wegen zu suchen, meinen Traum zu verwirklichen. Die Zeiten haben sich geändert und heute ist es 
     ist es möglich, auch in Grenzregionen einen guten Job in der Softwareentwicklung zu finden, sogar in der Spieleentwicklung, die 
     immer meine Leidenschaft war. `,
+    projectbase04: `Vom Sehen zum Handeln`,
+    projectbase05: ` Als die spielbare UE5 Matrix-Demo am 9. Dezember 2021 veröffentlicht wurde, war ich begeistert. Ich hatte keine Ahnung, dass die Spiele 
+    ich immer dachte, dass es ohne hunderte von Menschen und hunderte von Computern keine 
+    Ich wusste, dass ich es zu Hause herunterladen musste, also tat ich das, und ich lud UE5 herunter und die erste 
+    Ich verbrachte über 30 Stunden am ersten Wochenende damit, fand UnrealSensei auf YouTube und machte zwei Tutorials. Und es 
+    Und es war erstaunlich, und in den nächsten paar Monaten verbrachte ich etwa 40-50 Stunden pro Woche damit. Und ich kam in eine 
+    Situation, in der ich alles hinzufügen und einrichten kann, aber es hat keine Funktionalität und es ist kein Spiel. 
+    Es ist kein Spiel, es ist nur eine Welt, in der man sich frei bewegen kann. Und gerade als ich dachte, ich würde 
+    ich nach einer Quelle suchen müsste, die mir beibringt, wie man Spiele in UE entwickelt und nicht nur ein 
+    Spiel zu machen, das man nicht spielen kann, fand ich auf HumbleBundle ein Angebot für „Create Unreal 5 Engine Games Bundle“ und 
+    und kaufte das komplette Paket mit allen Kursen, womit mein Videospielabenteuer begann. `,
+    projectbase06: `
+    In den folgenden Monaten und Jahren arbeitete ich an einigen Projekten bei Game Jam, schrieb ein paar Websites, machte ein paar 
+    ein paar Assemblies, machte ein paar Konzept-Spiele, zog ein paar Mal von der Tschechischen Republik nach Deutschland um (weil ich 
+    (weil ich nicht will, dass meine Kinder das tun, was ich seit Jahren tue - ich lerne etwas und kann es dann nirgendwo anwenden), meine 
+    zweite Tochter wurde geboren, ich spielte endlich auf einem offiziellen WoW-Server, machte einen hochstufigen Magier, und als Teil der 
+    der Bohemian Lions Gilde habe ich „Geschichte geschrieben“. Ich baute 3 Drohnen und nahm an mehreren Flugtagen auf dem 
+    Flugtagen auf dem Flughafen in Cheb teil, machte unglaublich viele verschiedene Kurse rund um die Spieleentwicklung, hauptsächlich in der Unreal Engine, aber 
+    aber nicht nur darin, ich lernte das Programmieren in mehreren Programmiersprachen (C++, C#, Java, JavaScript{Ich halte nichts von 
+    HTML und CSS als Programmiersprachen}). Und jetzt denke ich, dass die Zeit endlich reif ist und meine Fähigkeiten ausreichen, um 
+    in meine Traumbranche einzutauchen und sie voranzubringen.`,
+    projectbase07: `<b>In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch orientierter Atheist, der 
+    der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.</b>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -321,7 +367,7 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domaci obrazovka",
-    aboutButton: "O mne",
+    aboutButton: `<a id="#" class="nav-link">O mne</a>`,
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -359,6 +405,29 @@ let language = {
     Začal jsem velmi aktivně studovat a hledat cesty, jak svůj sen uskutečnit. Doba se změnila a dnes je 
     možné najít dobrou práci v oblasti vývoje softwaru i v pohraničních oblastech, a to i v oblasti vývoje her, který byl vždy mou vášní. 
     který byl vždy mou vášní. `,
+    projectbase04: `Od koukani k delani`,
+    projectbase05: `Když bylo 9. prosince 2021 vydáno hratelné demo UE5 Matrix, byl jsem nadšený. Netušil jsem, že hry 
+    Vždycky jsem si myslel, že bez stovek lidí a stovek počítačů by se žádné 
+    Věděl jsem, že si ji musím doma stáhnout, a tak jsem to udělal, stáhl jsem si UE5 a zahrál si první hru. 
+    První víkend jsem u ní strávil přes 30 hodin, na YouTube jsem našel UnrealSensei a udělal dva tutoriály. A to 
+    A bylo to úžasné a během následujících několika měsíců jsem na tom strávil asi 40-50 hodin týdně. A dostal jsem se do 
+    situace, kdy můžu všechno přidávat a nastavovat, ale nemá to žádnou funkčnost a není to hra. 
+    Není to hra, je to jen svět, ve kterém se můžete volně pohybovat. A právě když jsem si myslel. 
+    že se budu muset poohlédnout po zdroji, který by mě naučil vyvíjet hry v UE a ne jen vytvářet 
+    hru, kterou si nemůžete zahrát, našel jsem na HumbleBundle nabídku na „Create Unreal 5 Engine Games Bundle“ (balíček her pro Unreal 5 Engine) a 
+    a koupil jsem si kompletní balíček se všemi kurzy, čímž začalo mé videoherní dobrodružství.`,
+    projectbase06: `
+    V následujících měsících a letech jsem pracoval na několika projektech v Game Jamu, napsal jsem několik webových stránek, vytvořil několik 
+    pár sestav, vytvořil pár koncepčních her, několikrát se přestěhoval z České republiky do Německa (protože jsem 
+    (protože nechci, aby moje děti dělaly to, co já už léta - něco se naučit a pak to nikde neuplatnit), narodila se mi druhá dcera, konečně jsem si zahrál 
+    Narodila se mi druhá dcera, konečně jsem hrál na oficiálním serveru WoW, udělal jsem mága na High Level a v rámci 
+    Cechu Bohemian Lions jsem se „zapsal do historie“. Postavil jsem 3 drony a zúčastnil se několika leteckých dnů na 
+    leteckých dnů na letišti v Chebu, absolvoval jsem neuvěřitelné množství různých kurzů kolem vývoje her, hlavně v Unreal Enginu, ale 
+    ale nejen v něm, naučil jsem se programovat v několika programovacích jazycích (C++, C#, Java, JavaScript{Myslím si, že moc ne 
+    HTML a CSS jako programovací jazyky}). A teď si myslím, že konečně nastal ten správný čas a mé schopnosti jsou dostatečné na to, abych mohl 
+    abych se vrhl do svého vysněného oboru a posunul ho dál.`,
+    projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
+    který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
