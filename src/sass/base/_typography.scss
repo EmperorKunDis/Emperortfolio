@@ -54,7 +54,7 @@ input[type="reqpos"],
 select,
 textarea {
   @include supportIE11() {
-    color: $primary-color !important;
+    color: $third-color !important;
   }
   &:hover {
     color: $black-color !important;
