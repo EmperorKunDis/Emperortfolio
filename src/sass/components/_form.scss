@@ -1,0 +1,36 @@
+.favsoft {
+  float: right;
+  width: 45%;
+}
+input[type="reqpos"],
+[type="favsoft"],
+select,
+textarea {
+  background-color: $form-background;
+  color: $primary-color;
+  border: none;
+  border-bottom: solid 1px $primary-color;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  width: 100%;
+  border: none;
+  transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.5s box-shadow,
+    0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+input[type="reqpos"]:focus,
+[type="favsoft"]:focus,
+textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.mef {
+  float: none;
+}
+
+.reqpos {
+  float: left;
+  width: 50%;
+}
