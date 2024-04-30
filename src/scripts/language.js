@@ -18,11 +18,14 @@ window.onload = function () {
   if (window.location.hash) {
     let lang = window.location.hash.substring(1); // Remove the '#' from the hash
     changeLanguage(lang);
+    contactParent.innerHTML = `<a id="contHref" class="nav-link" href="${langCont}">"${contactLang}"</a>`;
   }
 };
 // Define the language reload anchors
 let language = {
   eng: {
+    langCont: "contactEN.html",
+    contactLang: "Contact",
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
@@ -75,7 +78,7 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    aboutme: "About Me",
+    voleContact: "contactEN.html",
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -168,6 +171,8 @@ let language = {
     basedon: "Based on work of",
   },
   de: {
+    langCont: "contactDE.html",
+    contactLang: "Kontakte",
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -231,7 +236,7 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    aboutme: "Über mich",
+    voleContact: "contactDE.html",
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
@@ -326,6 +331,8 @@ let language = {
     basedon: "Basierend auf der Arbeit von",
   },
   cz: {
+    langCont: "contactCZ.html",
+    contactLang: "Kontakt",
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
@@ -383,7 +390,8 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domaci obrazovka",
-    aboutme: "O mne",
+    contactButton: "Kontakt",
+    voleContact: "contactCZ.html",
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -477,6 +485,7 @@ let language = {
     calltoaction: "Zavolat do akce",
   },
 };
+
 // Check if a hash value exists in the URL
 if (window.location.hash) {
   if (window.location.hash == "#de") {
@@ -485,7 +494,7 @@ if (window.location.hash) {
     buttonCzech.textContent = language.de.buttonCzech;
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
-    aboutme.textContent = language.de.aboutme;
+    contactButton.innerHTML = language.de.aboutme;
     contacts.textContent = language.de.contacts;
     project.textContent = language.de.project;
     devby.textContent = language.de.devby;
@@ -506,7 +515,7 @@ if (window.location.hash) {
     buttonGerman.textContent = language.cz.buttonGerman;
     buttonCzech.textContent = language.cz.buttonCzech;
     home.textContent = language.cz.home;
-    aboutme.textContent = language.cz.aboutme;
+    contactButton.innerHTML = language.cz.aboutme;
     contacts.textContent = language.cz.contacts;
     project.textContent = language.cz.project;
     devby.textContent = language.cz.devby;

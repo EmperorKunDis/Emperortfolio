@@ -12,7 +12,7 @@ body {
 
 section {
   background-size: cover;
-  color: white;
+  color: $third-color;
   background-color: var(--bg, --color-black);
   position: relative;
   display: flex;
@@ -41,7 +41,7 @@ section {
   display: block;
   background-color: black;
   height: 100vh;
-  color: white;
+  color: $third-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,6 @@ section {
 .reqpos {
   float: inline-end;
   width: 45%;
-  padding-right: 10%;
   padding-left: 5%;
 }
 input[type="reqpos"],
@@ -64,7 +63,7 @@ input[type="reqpos"],
   border: none;
   border-bottom: solid 1px $third-color;
   border: none;
-  width: 100%;
+  width: 80%;
   transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.5s box-shadow,
     0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
@@ -94,4 +93,36 @@ textarea:focus {
 
 .mef {
   float: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+messange,
+messange00,
+messange01,
+messange02,
+messange03,
+messange04,
+messange05 {
+  color: $third-color;
 }
