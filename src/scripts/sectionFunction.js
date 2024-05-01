@@ -1,4 +1,30 @@
 const aboutButton = document.getElementById("aboutButton");
+let aboutVisible = null;
+aboutButton.addEventListener("click", () => {
+  if (aboutVisible === true) {
+    aboutHiddenAbout.classList.add("hidden");
+    heroHiddenAbout.classList.add("hidden");
+    projectsHiddenAbout.classList.add("hidden");
+
+    heroVis.classList.remove("hidden");
+    aboutVis.classList.remove("hidden");
+    projectsVis.classList.remove("hidden");
+
+    aboutVisible = false;
+  } else {
+    aboutHiddenAbout.classList.remove("hidden");
+    heroHiddenAbout.classList.remove("hidden");
+    projectsHiddenAbout.classList.remove("hidden");
+
+    heroVis.classList.add("hidden");
+    aboutVis.classList.add("hidden");
+    projectsVis.classList.add("hidden");
+
+    aboutVisible = true;
+  }
+});
+/*
+const aboutButton = document.getElementById("aboutButton");
 const projectsButton = document.getElementById("projectsButton");
 const contactsButton = document.getElementById("constactsButton");
 
@@ -103,3 +129,4 @@ function hideBase() {
   aboutVis.classList.add("hidden");
   projectsVis.classList.add("hidden");
 }
+*/

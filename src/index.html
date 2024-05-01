@@ -78,12 +78,12 @@
               <a id="#" class="nav-link">About me</a></button>
           </li>
           <li class="nav-item">
-            <button id="projectButton" class="vole-hidden">
-              <a id="#" class="nav-link" href="#projects">Projects</a></button>
+            <button id="projectsButton" class="vole-hidden">
+              <a id="#" class="nav-link">Projects</a></button>
           </li>
           <li class="nav-item">
             <button id="contactsButton" class="vole-hidden">
-              <a id="contHref" class="contHref">Contacts</a>
+              <a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>
             </button>
           </li>
         </ul>
@@ -204,14 +204,14 @@
           </div>
         </div>
       </section>
-    <section id="heroHiddenProjects" class="hidden">
+    <section id="heroHiddenProjects" style="margin-top: 60px;" class="hidden">
         <div id="prosec" class="container">
-          <div class="project-wrapper">
+          <div class="project">
             <h2 id="projectstitle" class="section-title dark-blue-text">My Projects</h2>
             <div id="sec05" class="row">
               <div class="col-lg-4 col-sm-12">
-                <div class="project-wrapper__text load-hidden">
-                  <h3 class="project-wrapper__text-title"></h3>
+                <div class="project">
+                  <h3 class="project"></h3>
                   <div>
                     <p id="projectsEntry" class="mb-4">
                       In the following section is a list of all my projects that 
@@ -228,7 +228,7 @@
                 </div>
               </div>
               <div class="col-lg-8 col-sm-12">
-                <div class="project-wrapper__image load-hidden">
+                <div class="project">
                   <a rel="noreferrer" href="#" target="_blank">
                     <div
                       data-tilt
@@ -381,7 +381,7 @@
       </div>
       </section>
       </div>
-    <section id="aboutHiddenProjects" class="hidden">
+    <section id="aboutHiddenProjects" style="margin-top: 60px;" class="hidden">
         <div id="prosec" class="container">
           <div class="project-wrapper">
             <h2 id="projectstitle" class="section-title dark-blue-text">My Projects</h2>
@@ -545,7 +545,7 @@
             </div>
         </div>
       </section>
-    <section id="projectsHiddenAbout" class="hidden">
+    <section id="projectsHiddenAbout" style="margin-top: 60px;" class="hidden">
         <div class="container emp-profile">
           <form method="post">
               <div class="row">
@@ -645,7 +645,7 @@
         </div>
       </div>
       </section>
-    <section id="projectHiddenProjects" class="hidden">
+    <section id="projectsHiddenProjects" style="margin-top: 60px;" class="hidden">
       <div id="prosec" class="container">
         <div class="project-wrapper">
           <h2 id="projectstitle" class="section-title dark-blue-text">My Projects</h2>
@@ -720,36 +720,6 @@
             </div>
         </div>
       </section>
-    <section id="projectHiddenContacts" class="hidden">
-      <form action="#" method="post" id="contact_form">
-        <div class="reqpos">
-          <input type="reqpos" placeholder="Required position:" required>
-        </div>
-        <div class="favsoft">
-          <input type="favsoft" placeholder="Favorit software ?" required>
-        </div>
-        <div class="typecomp">
-        </div>
-        <div class="subject">
-          <select placeholder="Type of company you are looking for employees for ?" name="subject" id="subject_input" required>
-            <option disabled hidden selected>Type of company you are looking for employees for ? </option>
-            <option>Software Development</option>
-            <option>Game Development</option>
-            <option>Frontend/Backend Developmnet</option>
-          </select>
-          </div>
-          <div class="message">
-            <textarea name="message" placeholder="Please provide a specific example or examples of a skill you would like to see in a potential employee ?" id="message_input" cols="30" rows="5" required></textarea>
-            <textarea name="message01" placeholder="What self-study results or certifications would be really important to you ?" id="message01_input" cols="30" rows="5" required></textarea>
-            <textarea name="message02" placeholder="In what areas do you think the candidate could improve or further develop ?" id="message02_input" cols="30" rows="5" required></textarea>
-            <textarea name="message03" placeholder="What self-study results or certifications would be really important to you ?" id="message03_input" cols="30" rows="5" required></textarea>
-            <textarea name="message04" placeholder="In what areas do you think the candidate could improve or further develop ?" id="message04_input" cols="30" rows="5" required></textarea>
-          </div>
-          <div class="submit">
-            <a id="seemore" rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"  href="#">Send Message</a>
-          </div>
-        </form>
-        </section>
     <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
@@ -830,6 +800,7 @@
     }
     </script>
     <script src="./scripts/language.js"></script>
-    <script defer type="onclick" src="./scripts/sectionFunction.js"></script>
+    <script src="./scripts/sectionFunction.js"></script>
+    <script src="./scripts/sectionProjects.js"></script>
   </body>
 </html>

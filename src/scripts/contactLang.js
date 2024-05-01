@@ -1,3 +1,4 @@
+/*
 : "contactDE.html",
     : "Kontakte",
 let language = {
@@ -88,3 +89,4 @@ if (window.location.hash) {
       (contactText08.textContent = language.cz.contactText08);
   }
 }
+*/
