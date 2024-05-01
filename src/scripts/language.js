@@ -239,7 +239,7 @@ let language = {
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
-    welcome02: "Ich bin NICHT General Kenoby",
+    welcome02: "Ich bin NICHT General Kenobi",
     welcome03: "Ich heiße",
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Verwenden Highground",
