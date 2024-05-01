@@ -18,11 +18,13 @@ window.onload = function () {
   if (window.location.hash) {
     let lang = window.location.hash.substring(1); // Remove the '#' from the hash
     changeLanguage(lang);
+    contactParent.innerHTML = `<a id="contHref" class="nav-link" href="${langCont}">"${contactLang}"</a>`;
   }
 };
 // Define the language reload anchors
 let language = {
   eng: {
+    contactLang: "Contact",
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
@@ -75,7 +77,7 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    aboutme: "About Me",
+    $voleContact: "contactEN.html",
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -143,6 +145,7 @@ let language = {
     dive into my dream industry and help it move forward.`,
     projectbase07: `<b>I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -168,6 +171,7 @@ let language = {
     basedon: "Based on work of",
   },
   de: {
+    contactLang: "Kontakte",
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -231,11 +235,11 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    aboutme: "Über mich",
+    $voleContact: "contactDE.html",
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
-    welcome02: "Ich bin NICHT General Kenoby",
+    welcome02: "Ich bin NICHT General Kenobi",
     welcome03: "Ich heiße",
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Verwenden Highground",
@@ -299,6 +303,7 @@ let language = {
     in meine Traumbranche einzutauchen und sie voranzubringen.`,
     projectbase07: `<b>In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch orientierter Atheist, der 
     der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Contacts</a>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -326,6 +331,7 @@ let language = {
     basedon: "Basierend auf der Arbeit von",
   },
   cz: {
+    contactLang: "Kontakt",
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
@@ -383,7 +389,8 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domaci obrazovka",
-    aboutme: "O mne",
+    contactButton: "Kontakt",
+    $voleContact: "contactCZ.html",
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -451,6 +458,7 @@ let language = {
     abych se vrhl do svého vysněného oboru a posunul ho dál.`,
     projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
     který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
@@ -477,6 +485,7 @@ let language = {
     calltoaction: "Zavolat do akce",
   },
 };
+
 // Check if a hash value exists in the URL
 if (window.location.hash) {
   if (window.location.hash == "#de") {
@@ -485,7 +494,7 @@ if (window.location.hash) {
     buttonCzech.textContent = language.de.buttonCzech;
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
-    aboutme.textContent = language.de.aboutme;
+    contactButton.innerHTML = language.de.aboutme;
     contacts.textContent = language.de.contacts;
     project.textContent = language.de.project;
     devby.textContent = language.de.devby;
@@ -506,7 +515,7 @@ if (window.location.hash) {
     buttonGerman.textContent = language.cz.buttonGerman;
     buttonCzech.textContent = language.cz.buttonCzech;
     home.textContent = language.cz.home;
-    aboutme.textContent = language.cz.aboutme;
+    contactButton.innerHTML = language.cz.aboutme;
     contacts.textContent = language.cz.contacts;
     project.textContent = language.cz.project;
     devby.textContent = language.cz.devby;
