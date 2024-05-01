@@ -16,11 +16,16 @@ aboutButton.addEventListener("click", () => {
     heroHiddenAbout.classList.remove("hidden");
     projectsHiddenAbout.classList.remove("hidden");
 
+    aboutHiddenProjects.classList.add("hidden");
+    heroHiddenProjects.classList.add("hidden");
+    projectsHiddenProjects.classList.add("hidden");
+
     heroVis.classList.add("hidden");
     aboutVis.classList.add("hidden");
     projectsVis.classList.add("hidden");
 
     aboutVisible = true;
+    projectsVisible = false;
   }
 });
 /*
