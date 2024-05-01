@@ -24,7 +24,6 @@ window.onload = function () {
 // Define the language reload anchors
 let language = {
   eng: {
-    langCont: "contactEN.html",
     contactLang: "Contact",
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
@@ -78,7 +77,7 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    voleContact: "contactEN.html",
+    $voleContact: "contactEN.html",
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -146,6 +145,7 @@ let language = {
     dive into my dream industry and help it move forward.`,
     projectbase07: `<b>I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -171,7 +171,6 @@ let language = {
     basedon: "Based on work of",
   },
   de: {
-    langCont: "contactDE.html",
     contactLang: "Kontakte",
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
@@ -236,7 +235,7 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    voleContact: "contactDE.html",
+    $voleContact: "contactDE.html",
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
@@ -304,6 +303,7 @@ let language = {
     in meine Traumbranche einzutauchen und sie voranzubringen.`,
     projectbase07: `<b>In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch orientierter Atheist, der 
     der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Contacts</a>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -331,7 +331,6 @@ let language = {
     basedon: "Basierend auf der Arbeit von",
   },
   cz: {
-    langCont: "contactCZ.html",
     contactLang: "Kontakt",
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
@@ -391,7 +390,7 @@ let language = {
     `,
     home: "Domaci obrazovka",
     contactButton: "Kontakt",
-    voleContact: "contactCZ.html",
+    $voleContact: "contactCZ.html",
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -459,6 +458,7 @@ let language = {
     abych se vrhl do svého vysněného oboru a posunul ho dál.`,
     projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
     který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
