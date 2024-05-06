@@ -169,12 +169,11 @@ let language = {
         </div>`,
     devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Svanda",
     basedon: "Based on work of",
-    messag:
-      "Please give a specific example or examples of skills that you would like to see in a potential employee?",
-    mess: "What self-study or certification results would be really important to you?",
-    messa: "Which part of my portfolio did you think was the most important?",
-    mes: "Which position do you think would be appropriate to apply for?",
-    me: "In your opinion, what is the adequate annual salary that I should enter?",
+    messag: `Please give a specific example or examples of skills that you would like to see in a potential employee?`,
+    mess: `What self-study or certification results would be really important to you?`,
+    messa: `Which part of my portfolio did you think was the most important?`,
+    mes: `Which position do you think would be appropriate to apply for?`,
+    me: `In your opinion, what is the adequate annual salary that I should enter?`,
   },
   de: {
     contactLang: "Kontakte",
@@ -335,13 +334,11 @@ let language = {
       `,
     devby: "© 2024 - Website entwickelt von " + "Martin EmperorKunDis Svanda",
     basedon: "Basierend auf der Arbeit von",
-    messag:
-      "Bitte geben Sie ein oder mehrere konkrete Beispiele für Fähigkeiten an, die Sie sich bei einem potenziellen Mitarbeiter wünschen?",
-    mess: "Welche Ergebnisse des Selbststudiums oder der Zertifizierung wären für Sie wirklich wichtig?",
-    messa:
-      "Welcher Teil meines Portfolios war Ihrer Meinung nach der wichtigste?",
-    mes: "Für welche Position wäre es Ihrer Meinung nach angemessen, sich zu bewerben?",
-    me: "Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?",
+    messag: `Bitte geben Sie ein oder mehrere konkrete Beispiele für Fähigkeiten an, die Sie sich bei einem potenziellen Mitarbeiter wünschen?`,
+    mess: `Welche Ergebnisse des Selbststudiums oder der Zertifizierung wären für Sie wirklich wichtig?`,
+    messa: `Welcher Teil meines Portfolios war Ihrer Meinung nach der wichtigste?`,
+    mes: `Für welche Position wäre es Ihrer Meinung nach angemessen, sich zu bewerben?`,
+    me: `Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?`,
   },
   cz: {
     contactLang: "Kontakt",
@@ -496,12 +493,11 @@ let language = {
       `,
     devby: "© 2024 - Website vyvinuta " + "Martinem EmperorKunDis Švandou",
     calltoaction: "Zavolat do akce",
-    messag:
-      "Uveďte prosím konkrétní příklad nebo příklady dovedností, které byste u potenciálního zaměstnance rádi viděli ?",
-    mess: "Jaké výsledky samostudia nebo certifikace by pro vás byly opravdu důležité ?",
-    messa: "Ktera cast meho Portfolia se Vam zdala nejdulezitejsi ?",
-    mes: "Na jakou pozici si myslite ze by bylo adekvatni se prihlasit ?",
-    me: "Jaky je podle Vas adekvatni rocni plat ktery bych si mel zadat ?",
+    messag: `Uveďte prosím konkrétní příklad nebo příklady dovedností, které byste u potenciálního zaměstnance rádi viděli ?`,
+    mess: `Jaké výsledky samostudia nebo certifikace by pro vás byly opravdu důležité ?`,
+    messa: `Ktera cast meho Portfolia se Vam zdala nejdulezitejsi ?`,
+    mes: `Na jakou pozici si myslite ze by bylo adekvatni se prihlasit ?`,
+    me: `Jaky je podle Vas adekvatni rocni plat ktery bych si mel zadat ?`,
   },
 };
 
