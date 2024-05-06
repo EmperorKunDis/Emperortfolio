@@ -528,6 +528,7 @@ if (window.location.hash) {
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
+    messag.innerHTML = language.de.messag;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -549,5 +550,6 @@ if (window.location.hash) {
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
+    messag.innerHTML = language.cz.messag;
   }
 }
