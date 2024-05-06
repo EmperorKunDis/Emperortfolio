@@ -25,6 +25,7 @@ window.onload = function () {
 let language = {
   eng: {
     contactLang: "Contact",
+    contactLink: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
@@ -172,6 +173,7 @@ let language = {
   },
   de: {
     contactLang: "Kontakte",
+    contactLink: `<a id="contHref" class="nav-link" href="contactDE.html">Kontakte</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -332,6 +334,7 @@ let language = {
   },
   cz: {
     contactLang: "Kontakt",
+    contactLink: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakt</a>`,
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
