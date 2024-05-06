@@ -3,13 +3,8 @@ function changeLanguage(lang) {
     for (let key in language[lang]) {
       let element = document.getElementById(key);
       if (element) {
-        if (element.tagName.toLowerCase() === "textarea") {
-          element.placeholder = language[lang][key];
-        } else {
-          // If it's not a textarea, update its text content or innerHTML
-          element.textContent = language[lang][key];
-          element.innerHTML = language[lang][key];
-        }
+        element.textContent = language[lang][key];
+        element.innerHTML = language[lang][key];
       }
     }
     location.hash = lang; // Update hash for URL
@@ -174,11 +169,11 @@ let language = {
         </div>`,
     devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Svanda",
     basedon: "Based on work of",
-    message_input: `Please give a specific example or examples of skills that you would like to see in a potential employee?`,
-    message01_input: `What self-study or certification results would be really important to you?`,
-    message02_input: `Which part of my portfolio did you think was the most important?`,
-    message03_input: `Which position do you think would be appropriate to apply for?`,
-    message04_input: `In your opinion, what is the adequate annual salary that I should enter?`,
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Please give a specific example or examples of skills that you would like to see in a potential employee?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="What self-study or certification results would be really important to you?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Which part of my portfolio did you think was the most important?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Which position do you think would be appropriate to apply for?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="In your opinion, what is the adequate annual salary that I should enter?" cols="30" rows="5" required></textarea>`,
   },
   de: {
     contactLang: "Kontakte",
@@ -339,11 +334,11 @@ let language = {
       `,
     devby: "© 2024 - Website entwickelt von " + "Martin EmperorKunDis Svanda",
     basedon: "Basierend auf der Arbeit von",
-    message_input: `Bitte geben Sie ein oder mehrere konkrete Beispiele für Fähigkeiten an, die Sie sich bei einem potenziellen Mitarbeiter wünschen?`,
-    message01_input: `Welche Ergebnisse des Selbststudiums oder der Zertifizierung wären für Sie wirklich wichtig?`,
-    message02_input: `Welcher Teil meines Portfolios war Ihrer Meinung nach der wichtigste?`,
-    message03_input: `Für welche Position wäre es Ihrer Meinung nach angemessen, sich zu bewerben?`,
-    message04_input: `Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?`,
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Bitte nennen Sie ein konkretes Beispiel oder Beispiele für eine Fähigkeit, die Sie bei einem potenziellen Mitarbeiter sehen möchten?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="Welche Selbststudienergebnisse oder Zertifizierungen wären für Sie wirklich wichtig?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Welcher Teil meines Portfolios war Ihrer Meinung nach der wichtigste?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Für welche Position wäre es Ihrer Meinung nach angemessen, sich zu bewerben?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?" cols="30" rows="5" required></textarea>`,
   },
   cz: {
     contactLang: "Kontakt",
@@ -498,11 +493,11 @@ let language = {
       `,
     devby: "© 2024 - Website vyvinuta " + "Martinem EmperorKunDis Švandou",
     calltoaction: "Zavolat do akce",
-    message_input: `Uveďte prosím konkrétní příklad nebo příklady dovedností, které byste u potenciálního zaměstnance rádi viděli ?`,
-    message01_input: `Jaké výsledky samostudia nebo certifikace by pro vás byly opravdu důležité ?`,
-    message02_input: `Ktera cast meho Portfolia se Vam zdala nejdulezitejsi ?`,
-    message03_input: `Na jakou pozici si myslite ze by bylo adekvatni se prihlasit ?`,
-    message04_input: `Jaky je podle Vas adekvatni rocni plat ktery bych si mel zadat ?`,
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Uveďte prosím konkrétní příklad nebo příklady dovedností, které byste u potenciálního zaměstnance rádi viděli ?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="Jaké výsledky samostudia nebo certifikace by pro vás byly opravdu důležité ?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Ktera cast meho Portfolia se Vam zdala nejdulezitejsi ?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Na jakou pozici si myslite ze by bylo adekvatni se prihlasit ?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="Jaky je podle Vas adekvatni rocni plat ktery bych si mel zadat ?" cols="30" rows="5" required></textarea>`,
   },
 };
 
@@ -529,11 +524,11 @@ if (window.location.hash) {
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
-    message_input.placeholder = language.de.message_input;
-    message01_input.placeholder = language.de.message01_input;
-    message02_input.placeholder = language.de.message02_input;
-    message03_input.placeholder = language.de.message03_input;
-    message04_input.placeholder = language.de.message04_input;
+    message_input.innerHTML.placeholder = language.de.message_input;
+    message01_input.innerHTML.placeholder = language.de.message01_input;
+    message02_input.innerHTML.placeholder = language.de.message02_input;
+    message03_input.innerHTML.placeholder = language.de.message03_input;
+    message04_input.innerHTML.placeholder = language.de.message04_input;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -555,10 +550,10 @@ if (window.location.hash) {
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
-    message_input.placeholder = language.cz.message_input;
-    message01_input.placeholder = language.cz.message01_input;
-    message02_input.placeholder = language.cz.message02_input;
-    message03_input.placeholder = language.cz.message03_input;
-    message04_input.placeholder = language.cz.message04_input;
+    message_input.innerHTML.placeholder = language.cz.message_input;
+    message01_input.innerHTML.placeholder = language.cz.message01_input;
+    message02_input.innerHTML.placeholder = language.cz.message02_input;
+    message03_input.innerHTML.placeholder = language.cz.message03_input;
+    message04_input.innerHTML.placeholder = language.cz.message04_input;
   }
 }
