@@ -145,6 +145,25 @@ let language = {
     dive into my dream industry and help it move forward.`,
     projectbase07: `<b>I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.</b>`,
+    Learn01Cpp: `Classically, the project goes astray, but I learned to use the mouse on the inclined angle
+    platform and also set the position in which the ball will trigger the successful end of the game or general abandonment
+    platform other than a targeted opening for "Game Over"`,
+    Learn02Cpp: `In this project I learned how to give inertia to a moving object and how to give points that the player can 
+    collect, I also learned how to give three different endings to the game one when collecting all the diamonds and passing 
+    the goal one when passing the goal and one when falling from the platform.`,
+    Learn03Cpp: `In this project I learned how to write css code for time
+    limited gameplay where I should have written a function for every well shot target the game will give the player 3 seconds
+    and for every second target shot it will be plus 5 seconds and when the player shoots 3 more targets
+    before it once says you're a cheater and restarts the level. (Unfortunately, this project was one of them
+    what I lost when my Synology NAS moved to Silicon Haven)`,
+    Learn04Cpp: `This project was interesting because I programmed the mouse cursor to grab any object (that I had previously 
+      defined for this purpose) and when I took it to the required place, I had the lid of a large vase under which the key 
+      was located. As well as starting the requested function in case of lifting an object from the pressure switch or when 
+      inserting the key into the lock.`,
+    Learn01BP: ``,
+    Learn02BP: ``,
+    Learn03BP: ``,
+    Learn04BP: ``,
     contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
@@ -308,6 +327,24 @@ let language = {
     in meine Traumbranche einzutauchen und sie voranzubringen.`,
     projectbase07: `<b>In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch orientierter Atheist, der 
     der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.</b>`,
+    Learn01Cpp: `Normalerweise geht das Projekt in die Irre, aber ich habe gelernt, die Maus im geneigten Winkel zu verwenden
+    Plattform und legen Sie auch die Position fest, an der der Ball das erfolgreiche Ende des Spiels oder den allgemeinen Abbruch auslöst
+    Plattform außer einer gezielten Eröffnung für „Game Over“`,
+    Learn02Cpp: `In diesem Projekt habe ich gelernt, wie man einem sich bewegenden Objekt Trägheit verleiht und wie man dem Spieler Punkte gibt, die er erreichen kann
+    Beim Sammeln habe ich auch gelernt, wie man dem ersten Spiel drei verschiedene Enden gibt, indem man alle Diamanten einsammelt und weiterspielt
+    das Ziel, eines beim Passieren des Ziels und eines beim Sturz von der Plattform.`,
+    Learn03Cpp: `In diesem Projekt habe ich gelernt, wie man CSS-Code für die Zeit schreibt
+    eingeschränktes Gameplay, bei dem ich für jedes gut getroffene Ziel eine Funktion hätte schreiben sollen, die dem Spieler 3 Sekunden gibt
+    und für jedes zweite Ziel, das geschossen wird, sind es plus 5 Sekunden, und wenn der Spieler 3 weitere Ziele schießt
+    bevor es einmal sagt, dass du ein Betrüger bist und das Level neu startet. (Leider war dieses Projekt eines davon
+    was ich verloren habe, als mein Synology NAS nach Silicon Haven umgezogen ist)`,
+    Learn04Cpp: `Dieses Projekt war insofern interessant, als ich den Mauszeiger so programmiert habe, dass er jedes beliebige Objekt (das ich zuvor für diesen Zweck 
+      definiert hatte) greift, und als ich es an die gewünschte Stelle brachte, hatte ich den Deckel einer großen Vase, unter der sich der Schlüssel befand. Außerdem 
+      wird die gewünschte Funktion gestartet, wenn ein Gegenstand vom Druckschalter abgehoben wird oder wenn der Schlüssel in das Schloss gesteckt wird.`,
+    Learn01BP: ``,
+    Learn02BP: ``,
+    Learn03BP: ``,
+    Learn04BP: ``,
     contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Contacts</a>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
@@ -468,6 +505,24 @@ let language = {
     abych se vrhl do svého vysněného oboru a posunul ho dál.`,
     projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
     který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
+    Learn01Cpp: `Klasicky projekt kulicky bloudici bludistem ale naucil jsem se tu dat vystup z mysi na uhel nakloneni 
+    platformy a taky nastavit pozici v ktere kulicka spusti uspesne ukonceni hry nebo vseobecne opusteni 
+    platformy jinudy nez cilenym otvorem pro "Game Over"`,
+    Learn02Cpp: `V tomto projektu jsem se naučil, jak dát pohybujícímu se předmětu setrvačnost a jak dát body, které hráč může
+    sbírat, také jsem se naučil, jak při sesbírání všech diamantů a při míjení dát hernímu jednomu tři různé konce
+    cílový při průjezdu cílem a jeden při pádu z plošiny.`,
+    Learn03Cpp: `V tomto projektu jsem se naučil psát css kód pro čas omezená hratelnost, kde jsem měl zapsat funkci za každý 
+    dobře zastřelený cíl dá hra hráči 3 vteřiny a za každý druhý vystřelený terč to bude plus 5 sekund a když hráč vystřelí o 
+    3 terče více než jednou to napíše, že jsi podvodník a restartuje úroveň. (Tento projekt byl bohužel jedním z nich
+    co jsem ztratil, když můj Synology NAS přešel do Kremikoveho nebe)`,
+    Learn04Cpp: `Tento projekt byl zajímavý tím, že jsem si naprogramoval kurzor myši tak, aby uchopil jakýkoli předmět 
+    (který jsem si pro tento účel předem nadefinoval) a když jsem ho odnesl na požadované místo, měl jsem víko velké vázy, 
+    pod kterým byl klíč. Stejně jako spuštění požadované funkce v případě zvednutí předmětu z tlakového spínače nebo při 
+    vložení klíče do zámku. Take v Kremikovem nebi`,
+    Learn01BP: ``,
+    Learn02BP: ``,
+    Learn03BP: ``,
+    Learn04BP: ``,
     contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
@@ -525,6 +580,14 @@ if (window.location.hash) {
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
     message.innerHTML = language.de.message;
+    Learn01Cpp.textContent = language.de.Learn01Cpp;
+    Learn02Cpp.textContent = language.de.Learn02Cpp;
+    Learn03Cpp.textContent = language.de.Learn03Cpp;
+    Learn04Cpp.textContent = language.de.Learn04Cpp;
+    Learn01BP.textContent = language.de.Learn01BP;
+    Learn02BP.textContent = language.de.Learn02BP;
+    Learn03BP.textContent = language.de.Learn03BP;
+    Learn04BP.textContent = language.de.Learn04BP;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -547,5 +610,13 @@ if (window.location.hash) {
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
     message.innerHTML = language.cz.message;
+    Learn01Cpp.textContent = language.cz.Learn01Cpp;
+    Learn02Cpp.textContent = language.cz.Learn02Cpp;
+    Learn03Cpp.textContent = language.cz.Learn03Cpp;
+    Learn04Cpp.textContent = language.cz.Learn04Cpp;
+    Learn01BP.textContent = language.cz.Learn01BP;
+    Learn02BP.textContent = language.cz.Learn02BP;
+    Learn03BP.textContent = language.cz.Learn03BP;
+    Learn04BP.textContent = language.cz.Learn04BP;
   }
 }
