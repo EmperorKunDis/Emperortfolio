@@ -3,8 +3,13 @@ function changeLanguage(lang) {
     for (let key in language[lang]) {
       let element = document.getElementById(key);
       if (element) {
-        element.textContent = language[lang][key];
-        element.innerHTML = language[lang][key];
+        if (element.tagName.toLowerCase() === "textarea") {
+          element.placeholder = language[lang][key];
+        } else {
+          // If it's not a textarea, update its text content or innerHTML
+          element.textContent = language[lang][key];
+          element.innerHTML = language[lang][key];
+        }
       }
     }
     location.hash = lang; // Update hash for URL
@@ -524,11 +529,11 @@ if (window.location.hash) {
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
-    message_input.innerHTML.placeholder = language.de.message_input;
-    message01_input.innerHTML.placeholder = language.de.message01_input;
-    message02_input.innerHTML.placeholder = language.de.message02_input;
-    message03_input.innerHTML.placeholder = language.de.message03_input;
-    message04_input.innerHTML.placeholder = language.de.message04_input;
+    message_input.placeholder = language.de.message_input;
+    message01_input.placeholder = language.de.message01_input;
+    message02_input.placeholder = language.de.message02_input;
+    message03_input.placeholder = language.de.message03_input;
+    message04_input.placeholder = language.de.message04_input;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -550,10 +555,10 @@ if (window.location.hash) {
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
-    message_input.innerHTML.placeholder = language.cz.message_input;
-    message01_input.innerHTML.placeholder = language.cz.message01_input;
-    message02_input.innerHTML.placeholder = language.cz.message02_input;
-    message03_input.innerHTML.placeholder = language.cz.message03_input;
-    message04_input.innerHTML.placeholder = language.cz.message04_input;
+    message_input.placeholder = language.cz.message_input;
+    message01_input.placeholder = language.cz.message01_input;
+    message02_input.placeholder = language.cz.message02_input;
+    message03_input.placeholder = language.cz.message03_input;
+    message04_input.placeholder = language.cz.message04_input;
   }
 }
