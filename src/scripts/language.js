@@ -524,11 +524,11 @@ if (window.location.hash) {
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
-    message_input.textContent = language.de.message_input;
-    message01_input.textContent = language.de.message01_input;
-    message02_input.textContent = language.de.message02_input;
-    message03_input.textContent = language.de.message03_input;
-    message04_input.textContent = language.de.message04_input;
+    message_input.placeholder = language.de.message_input;
+    message01_input.placeholder = language.de.message01_input;
+    message02_input.placeholder = language.de.message02_input;
+    message03_input.placeholder = language.de.message03_input;
+    message04_input.placeholder = language.de.message04_input;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -550,10 +550,10 @@ if (window.location.hash) {
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
-    message_input.textContent = language.cz.message_input;
-    message01_input.textContent = language.cz.message01_input;
-    message02_input.textContent = language.cz.message02_input;
-    message03_input.textContent = language.cz.message03_input;
-    message04_input.textContent = language.cz.message04_input;
+    message_input.placeholder = language.cz.message_input;
+    message01_input.placeholder = language.cz.message01_input;
+    message02_input.placeholder = language.cz.message02_input;
+    message03_input.placeholder = language.cz.message03_input;
+    message04_input.placeholder = language.cz.message04_input;
   }
 }
