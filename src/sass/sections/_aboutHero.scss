@@ -1,13 +1,13 @@
 #aboutHero {
   background-color: black;
   color: $white-color;
-  height: 120%;
+  height: 100%;
   border-top: 0px;
   padding-top: 80px;
-  padding-bottom: 30%;
+  padding-bottom: 2%;
 
   @include respond(tab-land) {
-    height: 120%;
+    height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
   }
