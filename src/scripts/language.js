@@ -25,6 +25,7 @@ window.onload = function () {
 let language = {
   eng: {
     contactLang: "Contact",
+    contactLink: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
@@ -77,7 +78,6 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    $voleContact: "contactEN.html",
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
@@ -145,6 +145,35 @@ let language = {
     dive into my dream industry and help it move forward.`,
     projectbase07: `<b>I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.</b>`,
+    projectTitle01: `C++ learning projects`,
+    Learn01Cpp: ``,
+    Learn02Cpp: ``,
+    Learn03Cpp: `In this project I learned how to write css code for time
+    limited gameplay where I should have written a function for every well shot target the game will give the player 3 seconds
+    and for every second target shot it will be plus 5 seconds and when the player shoots 3 more targets
+    before it once says you're a cheater and restarts the level. (Unfortunately, this project was one of them
+    what I lost when my Synology NAS moved to Silicon Haven)`,
+    Learn04Cpp: `This project was interesting because I programmed the mouse cursor to grab any object (that I had previously 
+      defined for this purpose) and when I took it to the required place, I had the lid of a large vase under which the key 
+      was located. As well as starting the requested function in case of lifting an object from the pressure switch or when 
+      inserting the key into the lock.`,
+    projectTitle02: `Blueprint learning projects`,
+    Learn01BP: `Classically, the project goes astray, but I learned to use the mouse on the inclined angle
+    platform and also set the position in which the ball will trigger the successful end of the game or general abandonment
+    platform other than a targeted opening for "Game Over"`,
+    Learn02BP: `In this project I learned how to give inertia to a moving object and how to give points that the player can 
+    collect, I also learned how to give three different endings to the game one when collecting all the diamonds and passing 
+    the goal one when passing the goal and one when falling from the platform.`,
+    Learn03BP: `This was Top-Down Wave-Chaoss ( in my opinion ) shooter 
+    where was enemies random generated in place out o screen and in every wave 2 enemies mehr and every 5 was boss every fifth 
+    wave 20% live more and every 10 wavess come more and more hard enemies ( more damage more life ). Waves was randomly generated 
+    right after last enemie die(or after 1 minute), when player want use time what he was between last enemhy and one minute 
+    he must last enemy let be with minimum life ( under 20% was enemies slower )`,
+    Learn04BP: `I created a playable character from scratch, added an interactive system that makes it easy to mark objects in the 
+    world as interactive, and then added a number of horror mechanics like different doors with different handles. Opening modes, 
+    flashing lights, crouching and sprinting, jumping, stepping, leaning, finding notes and more. I then did cutscenes, studio 
+    lighting, post-processing, atmosphere, particle effects and fog to learn how to design and create a good level. This project 
+    was the basis for my future "Project Journey"`,
     contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
@@ -169,9 +198,15 @@ let language = {
         </div>`,
     devby: "© 2024 - Website developed by " + "Martin EmperorKunDis Svanda",
     basedon: "Based on work of",
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Please give a specific example or examples of skills that you would like to see in a potential employee?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="What self-study or certification results would be really important to you?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Which part of my portfolio did you think was the most important?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Which position do you think would be appropriate to apply for?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="In your opinion, what is the adequate annual salary that I should enter?" cols="30" rows="5" required></textarea>`,
   },
   de: {
     contactLang: "Kontakte",
+    contactLink: `<a id="contHref" class="nav-link" href="contactDE.html">Kontakte</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -235,7 +270,6 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    $voleContact: "contactDE.html",
     contacts: "Kontakte",
     project: "Projekte",
     aboutsec: "Möchten sie mehr wissen ???",
@@ -303,6 +337,34 @@ let language = {
     in meine Traumbranche einzutauchen und sie voranzubringen.`,
     projectbase07: `<b>In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch orientierter Atheist, der 
     der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.</b>`,
+    projectTitle01: `C++ learnen projekte`,
+    Learn01Cpp: ``,
+    Learn02Cpp: ``,
+    Learn03Cpp: `In diesem Projekt habe ich gelernt, wie man CPP-Code für die Zeit schreibt
+    eingeschränktes Gameplay, bei dem ich für jedes gut getroffene Ziel eine Funktion hätte schreiben sollen, die dem Spieler 3 Sekunden gibt
+    und für jedes zweite Ziel, das geschossen wird, sind es plus 5 Sekunden, und wenn der Spieler 3 weitere Ziele schießt
+    bevor es einmal sagt, dass du ein Betrüger bist und das Level neu startet. (Leider war dieses Projekt eines davon
+    was ich verloren habe, als mein Synology NAS nach Silicon Haven umgezogen ist)`,
+    Learn04Cpp: `Dieses Projekt war insofern interessant, als ich den Mauszeiger so programmiert habe, dass er jedes beliebige Objekt (das ich zuvor für diesen Zweck 
+      definiert hatte) greift, und als ich es an die gewünschte Stelle brachte, hatte ich den Deckel einer großen Vase, unter der sich der Schlüssel befand. Außerdem 
+      wird die gewünschte Funktion gestartet, wenn ein Gegenstand vom Druckschalter abgehoben wird oder wenn der Schlüssel in das Schloss gesteckt wird.`,
+    projectTitle02: `Blueprint learnen projekte`,
+    Learn01BP: `Normalerweise geht das Projekt in die Irre, aber ich habe gelernt, die Maus im geneigten Winkel zu verwenden
+    Plattform und legen Sie auch die Position fest, an der der Ball das erfolgreiche Ende des Spiels oder den allgemeinen Abbruch auslöst
+    Plattform außer einer gezielten Eröffnung für „Game Over“`,
+    Learn02BP: `In diesem Projekt habe ich gelernt, wie man einem sich bewegenden Objekt Trägheit verleiht und wie man dem Spieler Punkte gibt, die er erreichen kann
+    Beim Sammeln habe ich auch gelernt, wie man dem ersten Spiel drei verschiedene Enden gibt, indem man alle Diamanten einsammelt und weiterspielt
+    das Ziel, eines beim Passieren des Ziels und eines beim Sturz von der Plattform.`,
+    Learn03BP: `Das war (meiner Meinung nach) ein Top-Down-Wave-Chaoss-Shooter
+    Wo wurden Feinde zufällig an Ort und Stelle außerhalb des Bildschirms generiert und in jeder Welle waren es 2 Feinde mehr und jeder 5. war jeder fünfte Boss
+    Welle 20 % mehr Leben und alle 10 Wellen kommen immer mehr harte Feinde (mehr Schaden, mehr Leben). Wellen wurden zufällig generiert
+    Direkt nach dem Tod des letzten Gegners (oder nach 1 Minute), wenn der Spieler die Zeit nutzen möchte, die er zwischen dem letzten Feind und einer Minute hatte
+    Er muss den letzten Feind mit minimalem Leben loslassen (unter 20 % waren die Feinde langsamer).`,
+    Learn04BP: `Ich habe einen spielbaren Charakter von Grund auf erstellt, ein interaktives System hinzugefügt, das es einfach macht, Objekte in der Welt 
+    als interaktiv zu markieren, und dann eine Reihe von Horrormechaniken hinzugefügt, wie zum Beispiel verschiedene Türen mit unterschiedlichen Griffen. 
+    Öffnungsmodi, blinkende Lichter, Hocken und Sprinten, Springen, Treten, Lehnen, Notizen finden und mehr. Anschließend habe ich Zwischensequenzen, 
+    Studiobeleuchtung, Nachbearbeitung, Atmosphäre, Partikeleffekte und Nebel erstellt, um zu lernen, wie man ein gutes Level gestaltet und erstellt. Dieses 
+    Projekt war die Grundlage für meine zukünftige „Projektreise“`,
     contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Contacts</a>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
@@ -329,9 +391,15 @@ let language = {
       `,
     devby: "© 2024 - Website entwickelt von " + "Martin EmperorKunDis Svanda",
     basedon: "Basierend auf der Arbeit von",
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Bitte nennen Sie ein konkretes Beispiel oder Beispiele für eine Fähigkeit, die Sie bei einem potenziellen Mitarbeiter sehen möchten?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="Welche Selbststudienergebnisse oder Zertifizierungen wären für Sie wirklich wichtig?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Welcher Teil meines Portfolios war Ihrer Meinung nach der wichtigste?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Für welche Position wäre es Ihrer Meinung nach angemessen, sich zu bewerben?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?" cols="30" rows="5" required></textarea>`,
   },
   cz: {
     contactLang: "Kontakt",
+    contactLink: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakt</a>`,
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
@@ -390,7 +458,6 @@ let language = {
     `,
     home: "Domaci obrazovka",
     contactButton: "Kontakt",
-    $voleContact: "contactCZ.html",
     contacts: "Kontakty",
     project: "Projekty",
     aboutsec: "Chcete vedet vic ???",
@@ -458,6 +525,34 @@ let language = {
     abych se vrhl do svého vysněného oboru a posunul ho dál.`,
     projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
     který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
+    projectTitle01: `Ucebni projekty na C++`,
+    Learn01Cpp: ``,
+    Learn02Cpp: ``,
+    Learn03Cpp: `V tomto projektu jsem se naučil psát css kód pro čas omezená hratelnost, kde jsem měl zapsat funkci za každý 
+    dobře zastřelený cíl dá hra hráči 3 vteřiny a za každý druhý vystřelený terč to bude plus 5 sekund a když hráč vystřelí o 
+    3 terče více než jednou to napíše, že jsi podvodník a restartuje úroveň. (Tento projekt byl bohužel jedním z nich
+    co jsem ztratil, když můj Synology NAS přešel do Kremikoveho nebe)`,
+    Learn04Cpp: `Tento projekt byl zajímavý tím, že jsem si naprogramoval kurzor myši tak, aby uchopil jakýkoli předmět 
+    (který jsem si pro tento účel předem nadefinoval) a když jsem ho odnesl na požadované místo, měl jsem víko velké vázy, 
+    pod kterým byl klíč. Stejně jako spuštění požadované funkce v případě zvednutí předmětu z tlakového spínače nebo při 
+    vložení klíče do zámku. Take v Kremikovem nebi`,
+    projectTitle02: `Ucebni projekty na Blueprinty`,
+    Learn01BP: `Klasicky projekt kulicky bloudici bludistem ale naucil jsem se tu dat vystup z mysi na uhel nakloneni 
+    platformy a taky nastavit pozici v ktere kulicka spusti uspesne ukonceni hry nebo vseobecne opusteni 
+    platformy jinudy nez cilenym otvorem pro "Game Over"`,
+    Learn02BP: `V tomto projektu jsem se naučil, jak dát pohybujícímu se předmětu setrvačnost a jak dát body, které hráč může
+    sbírat, také jsem se naučil, jak při sesbírání všech diamantů a při míjení dát hernímu jednomu tři různé konce
+    cílový při průjezdu cílem a jeden při pádu z plošiny.`,
+    Learn03BP: `Tohle byla Top-Down Wave-Chaoss (v mem pripade) Shooter .
+    Kde byli nepřátelé náhodně generováni na místě na obrazovce a v každé vlně 2 nepřátelé mehr a každých 5 byl boss každý pátý
+    vlna 20% žije více a každých 10 vln přichází více a více tvrdých nepřátel (více poškození, více života). Vlny byly generovány náhodně
+    hned po smrti posledního nepřítele (nebo po 1 minutě), když chce hráč využít čas, jaký byl mezi posledním nepřítelem a jednou minutou
+    musí vydržet nepřítele nechat být s minimálním životem (pod 20% byli nepřátelé pomalejší)`,
+    Learn04BP: `Vytvořil jsem hratelnou postavu od nuly, přidal interaktivni systém, který usnadňuje označování objektů ve světě jako 
+    interagovatelné, a poté přidal řadu hororových mechanik, jako jsou různé dveře s ruznymi klici. Způsoby otevírání, blikající světla, 
+    přikrčení a sprinty, skákání, kroky, naklánění, hledání poznámek a další. Poté jsem udelal cutscény, studiove osvětlení, post-processing, 
+    atmosféru, částicových efektů a mlhu, abych se naučili, jak navrhnout a vytvořit dobrou úroveň. Tento project byl zakladem pro muj budouci 
+    "Project Journey"`,
     contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
@@ -483,6 +578,11 @@ let language = {
       `,
     devby: "© 2024 - Website vyvinuta " + "Martinem EmperorKunDis Švandou",
     calltoaction: "Zavolat do akce",
+    message: `<textarea id="messag" style="color: $third-color" placeholder="Uveďte prosím konkrétní příklad nebo příklady dovedností, které byste u potenciálního zaměstnance rádi viděli ?" cols="30" rows="5" required></textarea>
+    <textarea id="mess" style="color: $third-color" placeholder="Jaké výsledky samostudia nebo certifikace by pro vás byly opravdu důležité ?" cols="30" rows="5" required></textarea>
+    <textarea id="messa" style="color: $third-color" placeholder="Ktera cast meho Portfolia se Vam zdala nejdulezitejsi ?" cols="30" rows="5" required></textarea>
+    <textarea id="mes" style="color: $third-color" placeholder="Na jakou pozici si myslite ze by bylo adekvatni se prihlasit ?" cols="30" rows="5" required></textarea>
+    <textarea id="me" style="color: $third-color" placeholder="Jaky je podle Vas adekvatni rocni plat ktery bych si mel zadat ?" cols="30" rows="5" required></textarea>`,
   },
 };
 
@@ -509,6 +609,15 @@ if (window.location.hash) {
     projectstitle.textContent = language.de.projectstitle;
     seemore.textContent = language.de.seemore;
     projectbase.textContent = language.de.projectbase;
+    message.innerHTML = language.de.message;
+    Learn01Cpp.textContent = language.de.Learn01Cpp;
+    Learn02Cpp.textContent = language.de.Learn02Cpp;
+    Learn03Cpp.textContent = language.de.Learn03Cpp;
+    Learn04Cpp.textContent = language.de.Learn04Cpp;
+    Learn01BP.textContent = language.de.Learn01BP;
+    Learn02BP.textContent = language.de.Learn02BP;
+    Learn03BP.textContent = language.de.Learn03BP;
+    Learn04BP.textContent = language.de.Learn04BP;
   } else if (window.location.hash == "#cz") {
     buttonLanguageMenu.textContent = language.cz.buttonLanguageMenu;
     buttonEnglish.textContent = language.cz.buttonEnglish;
@@ -530,5 +639,14 @@ if (window.location.hash) {
     projectstitle.textContent = language.cz.projectstitle;
     seemore.textContent = language.cz.seemore;
     projectbase.textContent = language.cz.projectbase;
+    message.innerHTML = language.cz.message;
+    Learn01Cpp.textContent = language.cz.Learn01Cpp;
+    Learn02Cpp.textContent = language.cz.Learn02Cpp;
+    Learn03Cpp.textContent = language.cz.Learn03Cpp;
+    Learn04Cpp.textContent = language.cz.Learn04Cpp;
+    Learn01BP.textContent = language.cz.Learn01BP;
+    Learn02BP.textContent = language.cz.Learn02BP;
+    Learn03BP.textContent = language.cz.Learn03BP;
+    Learn04BP.textContent = language.cz.Learn04BP;
   }
 }
