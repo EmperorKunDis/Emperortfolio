@@ -173,7 +173,7 @@ let language = {
     flashing lights, crouching and sprinting, jumping, stepping, leaning, finding notes and more. I then did cutscenes, studio 
     lighting, post-processing, atmosphere, particle effects and fog to learn how to design and create a good level. This project 
     was the basis for my future "Project Journey"`,
-    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Kontakt</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -204,7 +204,6 @@ let language = {
     <textarea id="me" style="color: $third-color" placeholder="In your opinion, what is the adequate annual salary that I should enter?" cols="30" rows="5" required></textarea>`,
   },
   de: {
-    contactLang: "Kontakte",
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -396,7 +395,6 @@ let language = {
     <textarea id="me" style="color: $third-color" placeholder="Was ist Ihrer Meinung nach das angemessene Jahresgehalt, das ich eintragen sollte?" cols="30" rows="5" required></textarea>`,
   },
   cz: {
-    contactLang: "Kontakt",
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
@@ -454,9 +452,6 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domácí obrazovka",
-    contacts: "Kontakty",
-    projects: "Projekty",
-    about: "O mně",
     aboutsec: "CHCETE VĚDĚT VÍC ???",
     basedon: "Inspirovano : ",
     welcome02: "Já nejsem Generál Kenobi",
@@ -604,7 +599,8 @@ if (window.location.hash) {
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
     contactsButton.innerHTML = language.de.contactsButton;
-    contacts.textContent = language.de.contacts;
+    projectsButton.innerHTML = language.de.projectsButton;
+    contactsButton.innerHTML = language.de.contactsButton;
     projects.textContent = language.de.projects;
     about.textContent = language.de.about;
     devby.textContent = language.de.devby;
