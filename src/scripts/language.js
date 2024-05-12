@@ -81,7 +81,7 @@ let language = {
     contacts: "Contacts",
     project: "Projects",
     aboutsec: "Would you like to know more ???",
-    welcome02: "I'm NOT General Kenoby",
+    welcome02: "I'm NOT General Kenobi",
     welcome03: "I'm",
     welcome04: "Martin EmperorKunDis Svanda",
     useHighground: "Use Highground",
@@ -456,75 +456,87 @@ let language = {
     Jsem hlavne otec, manzel, hrac, fanousek Star Wars, programator a technicky zalozeny ateista ktery 
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
-    home: "Domaci obrazovka",
+    home: "Domácí obrazovka",
     contactButton: "Kontakt",
     contacts: "Kontakty",
     project: "Projekty",
-    aboutsec: "Chcete vedet vic ???",
+    aboutsec: "CHCETE VĚDĚT VÍC ???",
     basedon: "Inspirovano : ",
-    welcome02: "Ja nejsem General Kenoby",
+    welcome02: "Já nejsem Generál Kenobi",
     welcome03: "Jmenuji se ",
     welcome04: "Martin EmperorKunDis Švanda",
-    useHighground: "Vyuzij Highground",
+    useHighground: "Využij Highground",
     tryAnakin: "↓↓↓ Zkusit to jako Anakin ↓↓↓",
-    morebutton: "Vice Informaci",
+    morebutton: "Více Informací",
     projectstitle: "Moje Projekty",
     projectsEntry: `
-    V následující části je seznam všech mých projektů, které přežily až do dnešního dne. Bohužel jsem 
-    z technických důvodů ztratil spoustu dat převážně z období, kdy jsem se učil. Současně bych chtěl 
-    zdůraznit, že vše, co jsem se naučil v posledních dvou letech jsem se naučil sám. Neměl jsem žádné 
-    vedení, žádnou pomoc ani nikoho, kdo by mi pomohl. mi poradil, jak funguje git nebo jaký program 
-    použít k vytvoření sestavy. I všechno jsem se učil v době po své standardní práci, kde jsem programoval
-     backend v jiném programovacím jazyce, než ve kterém vyvíjím.`,
-    seemore: "Ukazat Vic",
+      V následující části je seznam všech mých projektů, které přežily až
+      do dnešního dne. Bohužel, jak už to v naší profesi bývá, jsem z
+      technických důvodů ztratil spoustu dat převážně z raného období
+      mé práce, nejdřív úplně vše, pak jsem si koupil Synology NAS a 
+      zálohoval na více frontách a při druhé ztrátě vše z NASu . Od 
+      začátku jsem byl hlavně samoukem a neměl jsem žádné vedení, 
+      žádnou pomoc ani nikoho, kdo by mi dal zpětnou vazbu. Sice mi takto 
+      vše trvalo déle, ale za to jsem se mohl ponořit i do problematiky, 
+      ke které bych se jinak nedostal. V tomto modu operuji 
+      již nějaký čas, kdy toto hluboké ponoření do programování
+      probíhá až po mé standardní pracovní době. Kdy v zaměstnání
+      programuji backend v jiném programovacím jazyce, než ve
+      kterém vyvíjím, což je mi dobrou a pestrou zkušeností.`,
+    seemore: "Ukázat víc",
     projectbase: "Profesní kariéra vývojáře softwaru:",
     projectbase01: "Od zedničení k hernímu designu",
     projectbase02: `
-    Do Chebu jsem se vrátil z Prahy v roce 2012. Po ukončení studií jsem se snažila v Praze prosadit jako 
-    softwarového vývojáře v Praze. Bohužel se mi to nepodařilo, protože moji rodiče neměli v Praze žádné kontakty a finanční zázemí. 
-    finanční zázemí, které by mi pomohlo se v hlavním městě usadit. Hledání práce 
-    v mém oboru v Chebu se ukázalo jako nemožné. Všichni moji úspěšní spolužáci pracovali za nízké mzdy v 02 
-    nebo T-Mobile nebo jako dělníci v tiskárnách. Jedinou možností, jak získat něco pro lepší život, byla práce v Německu. 
-    pracovat v Německu. V roce 2012 jsem začal pracovat pro německou společnost. Navzdory mému vzdělání (základní škola, 
-    střední škole, gymnáziu a vysoké škole) a celkem více než 13 letům výuky angličtiny (mj. 
-    2 let IT angličtiny a 1,5 roku obchodní angličtiny) jsem musel začít na nejnižší úrovni. Trvalo mi to 
-    Trvalo mi téměř 3 roky, než jsem se od pomocné síly dostal k instalaci zásuvek. `,
+      V roce 2012 jsem se vrátil z Prahy do Chebu. Po ukončení vysokoškolského studia jsem se pokusil prosadit jako softwarový
+      vývojář v Praze.Po nasbírání možných zkušeností, jsem se vrátil zpět do Chebu. Najít práci v mém oboru, se však tehdy
+      ukázalo jako nemožné .Chtěl jsem víc než většina mých spolužáků, kteří tehdy využili příležitosti ve velkých korporátech jako
+      bylo 02 nebo T-Mobile, ale tyto korporáty je jen využili. Jedinou perspektivní možností se ukázala být práce v Německu. V
+      roce 2012 jsem tedy začal pracovat pro německou společnost. Navzdory svému vzdělání (základní, střední a vysoké škole),
+      studiu angličtiny celkem více než 13 let (včetně 2 let IT angličtiny a 1,5 roku ekonomické angličtiny) jsem začal jako správný
+      nomád na nejnižší pozici. Cesta to byla dlouhá a leckdy demoralizující, ale pro dosažení cíle jistě potřebná. `,
     projectbase03: `
-    Díky svému logickému myšlení a zkušenostem s technickým kreslením jsem se rychle seznámil s technickými znalostmi. 
-    seznámil s technickou dokumentací a montážními plány. Po třech letech jsem se stal vedoucím několika malých 
-    týmů elektrikářů a cestovali jsme po celém Německu, stavěli domy a instalovali kancelářské vybavení. 
-    Byla to dobrá práce s dobrým platem a jako svobodný muž jsem byl šťastný. Nebýt pandemie Covid-19, 
-    pravděpodobně bych v té práci pracoval dodnes. Ale pandemie Covid-19 pro mě všechno změnila. Přiměla mě 
-    ztížilo cestování do Montazu. Zároveň jsem si našel ženu, založili jsme rodinu a cestování se začalo rozvíjet. 
-    Cestování na týdenní bazi nebo delší pracovní nasazení už pro mě nepřipadalo v úvahu. Musel jsem si najít práci poblíž hranic. 
-    Hranice. Půl roku jsem pracoval ve sklárně, kde jsem vytíral podlahy. Bylo to jedno z nejhorších období mého života. 
-    života. Pak jsem se ale rozhodl, že si svůj koníček, vývoj her a programování, užiju naplno. 
-    Začal jsem velmi aktivně studovat a hledat cesty, jak svůj sen uskutečnit. Doba se změnila a dnes je 
-    možné najít dobrou práci v oblasti vývoje softwaru i v pohraničních oblastech, a to i v oblasti vývoje her, který byl vždy mou vášní. 
-    který byl vždy mou vášní. `,
+      Díky svému logickému myšlení a zkušenostem s technickým kreslením jsem se rychle zorientoval v technické
+      dokumentaci a montážních plánech. Po třech letech jsem se z nejnižších pozic stal vedoucím několika malých týmů elektrikářů
+      a jezdili jsme po celém Německu. Stavěl jsmei rodinné domy a instalovali jsme kancelářské interiéry. Byla to dobrá práce s
+      dobrým platem a jako svobodnému mi to stačilo. Nebýt pandemie covid-19, pravděpodobně bych v té práci byl dodnes.
+      Pandemie covid-19 však pro mě všechno změnila. Zkomplikovalo to cestování za instalacemi a možnost pravidelného a jistého
+      výdělku.. Zároveň jsem si našel manželku, založili jsme rodinu a cestování na týdenní či delší pracovní směny už pro mě
+      nebylo možné. Musel jsem si najít práci blízko hranic. Půl roku jsem pracoval ve sklárně, zametal podlahu. Bylo to jedno z
+      nejhorších období mého života. Tehdy jsem se však konečně rozhodl věnovat svému koníčku, vývoji her a programování
+      naplno a začal jsem velmi aktivně studovat a hledat cesty, jak dosáhnout svého snu. Doba se změnila a dnes je možné najít
+      dobrou práci v oblasti vývoje softwaru i v příhraničních regionech, a to i v oblasti vývoje her, což je můj sen. `,
     projectbase04: `Od koukani k delani`,
-    projectbase05: `Když bylo 9. prosince 2021 vydáno hratelné demo UE5 Matrix, byl jsem nadšený. Netušil jsem, že hry 
-    Vždycky jsem si myslel, že bez stovek lidí a stovek počítačů by se žádné 
-    Věděl jsem, že si ji musím doma stáhnout, a tak jsem to udělal, stáhl jsem si UE5 a zahrál si první hru. 
-    První víkend jsem u ní strávil přes 30 hodin, na YouTube jsem našel UnrealSensei a udělal dva tutoriály. A to 
-    A bylo to úžasné a během následujících několika měsíců jsem na tom strávil asi 40-50 hodin týdně. A dostal jsem se do 
-    situace, kdy můžu všechno přidávat a nastavovat, ale nemá to žádnou funkčnost a není to hra. 
-    Není to hra, je to jen svět, ve kterém se můžete volně pohybovat. A právě když jsem si myslel. 
-    že se budu muset poohlédnout po zdroji, který by mě naučil vyvíjet hry v UE a ne jen vytvářet 
-    hru, kterou si nemůžete zahrát, našel jsem na HumbleBundle nabídku na „Create Unreal 5 Engine Games Bundle“ (balíček her pro Unreal 5 Engine) a 
-    a koupil jsem si kompletní balíček se všemi kurzy, čímž začalo mé videoherní dobrodružství.`,
+    projectbase05: `Když 9. prosince 2021 vyšlo hratelné demo UE5 Matrix, byl jsem nadšen. Netušil jsem, že se herní průmysl posunul
+      tak daleko a věděl jsem, že si to musím ověřit doma. Stáhl jsem si UE5 a první víkend na něm strávil přes 30 hodin, našel
+      UnrealSensei na YouTube a první víkend jsem pracoval nonstop. A bylo to úžasné a převratné. Během následujících pár
+      měsíců jsem nad tím strávil asi 40-50 hodin týdně. Dostal jsem se do situace, kdy jsem mohl vše přidat, vše nastavit, ale o
+      hře se ještě mluvit nedalo. Byl to, jen svět, kterým se můžete volně pohybovat. Jednou z hlavních příležitostí byla akce na Humble
+      Bundle „Create Unreal 5 Engine Games Bundle“ od Gamedev.tv. Ve chvíli, kdy jsem stagnoval a musel začít hledat nové zdroje informací, 
+      který by mě naučil vyvíjet hry v UE do větší hloubky, jsem díky těmto kurzům opět našel směr a opět se ponořil do práce na plno.`,
     projectbase06: `
-    V následujících měsících a letech jsem pracoval na několika projektech v Game Jamu, napsal jsem několik webových stránek, vytvořil několik 
-    pár sestav, vytvořil pár koncepčních her, několikrát se přestěhoval z České republiky do Německa (protože jsem 
-    (protože nechci, aby moje děti dělaly to, co já už léta - něco se naučit a pak to nikde neuplatnit), narodila se mi druhá dcera, konečně jsem si zahrál 
-    Narodila se mi druhá dcera, konečně jsem hrál na oficiálním serveru WoW, udělal jsem mága na High Level a v rámci 
-    Cechu Bohemian Lions jsem se „zapsal do historie“. Postavil jsem 3 drony a zúčastnil se několika leteckých dnů na 
-    leteckých dnů na letišti v Chebu, absolvoval jsem neuvěřitelné množství různých kurzů kolem vývoje her, hlavně v Unreal Enginu, ale 
-    ale nejen v něm, naučil jsem se programovat v několika programovacích jazycích (C++, C#, Java, JavaScript{Myslím si, že moc ne 
-    HTML a CSS jako programovací jazyky}). A teď si myslím, že konečně nastal ten správný čas a mé schopnosti jsou dostatečné na to, abych mohl 
-    abych se vrhl do svého vysněného oboru a posunul ho dál.`,
-    projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars, programátor a technicky zaměřený ateista, který 
-    který věří, že s tvrdou prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
+      V následujících měsících a letech jsem pracoval na několika
+      projektech pri různých GameJam akcích, napsal jsem několik webových stránek,
+      vytvořil několik pár sestav a koncepčních her. Přestěhoval jsem se
+      s celou rodinou z České republiky do Německa (nechtěl jsem, aby
+      moje děti dělaly to, co já už léta - něco se naučily a pak neměly
+      šanci své dovednosti uplatnit). Moje zájmy byly velmi různorodé a
+      mimo jiné jsem si konečně zahrál na oficiálním serveru WoW,
+      udělal jsem mága na High Level a v rámci Cechu Bohemian Lions
+      jsem se „zapsal do historie“. Postavil jsem 3 drony a zúčastnil se
+      několika leteckých dnů na letišti v Chebu, jako maršál. Jelikož je
+      můj otec celoživotní pilot, k leteckým strojům a technice obecně
+      jsem měl vždy velmi blízko. Absolvoval jsem neuvěřitelné
+      množství různých kurzů kolem vývoje her, hlavně v Unreal Enginu,
+      ale nejen v něm, naučil jsem se programovat v několika
+      programovacích jazycích (C++, C#, Java, JavaScript{Myslím si, že
+      moc ne HTML a CSS jako programovací jazyky}). Během toho
+      všeho se mi narodila druhá dcera a motivace pro pokračování v
+      práci je o to větší. A teď si myslím, že konečně nastal ten správný
+      čas a mé schopnosti jsou dostatečné na to, abych mohl začít
+      působit ve svém oboru na nové úrovni.`,
+    projectbase07: `<b>V první řadě jsem otec, manžel, hráč, fanoušek Star Wars a Naruta,
+      lehký japanofil, programátor a technicky zaměřený ateista, který věří, že s tvrdou
+      prací a odhodláním je možné dosáhnout jakéhokoli úspěchu.</b>`,
     projectTitle01: `Ucebni projekty na C++`,
     Learn01Cpp: ``,
     Learn02Cpp: ``,
