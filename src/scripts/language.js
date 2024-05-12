@@ -25,7 +25,6 @@ window.onload = function () {
 let language = {
   eng: {
     contactLang: "Contact",
-    contactLink: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Developer / Game Developer",
     buttonLanguageMenu: "Language",
@@ -78,8 +77,8 @@ let language = {
     I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
-    contacts: "Contacts",
-    project: "Projects",
+    projects: "Projects",
+    about: "About",
     aboutsec: "Would you like to know more ???",
     welcome02: "I'm NOT General Kenobi",
     welcome03: "I'm",
@@ -206,7 +205,6 @@ let language = {
   },
   de: {
     contactLang: "Kontakte",
-    contactLink: `<a id="contHref" class="nav-link" href="contactDE.html">Kontakte</a>`,
     titletext:
       "Martin EmperorKunDis Svanda | Software Entwickler / Spiele Entwickler",
     buttonLanguageMenu: "Sprache",
@@ -270,8 +268,8 @@ let language = {
     In erster Linie bin ich Vater, Ehemann, Gamer, Star Wars-Fan, Programmierer und ein technisch 
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
-    contacts: "Kontakte",
-    project: "Projekte",
+    projects: "Projekte",
+    about: "Ueber mich",
     aboutsec: "Möchten sie mehr wissen ???",
     welcome02: "Ich bin NICHT General Kenobi",
     welcome03: "Ich heiße",
@@ -399,7 +397,6 @@ let language = {
   },
   cz: {
     contactLang: "Kontakt",
-    contactLink: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakt</a>`,
     titletext:
       "Martin EmperorKunDis Švanda | Softwareovy Vyvojar / Herni Vyvojar",
     buttonLanguageMenu: "Jazyk",
@@ -457,9 +454,9 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domácí obrazovka",
-    contactButton: "Kontakt",
     contacts: "Kontakty",
-    project: "Projekty",
+    projects: "Projekty",
+    about: "O mně",
     aboutsec: "CHCETE VĚDĚT VÍC ???",
     basedon: "Inspirovano : ",
     welcome02: "Já nejsem Generál Kenobi",
@@ -565,7 +562,7 @@ let language = {
     přikrčení a sprinty, skákání, kroky, naklánění, hledání poznámek a další. Poté jsem udelal cutscény, studiove osvětlení, post-processing, 
     atmosféru, částicových efektů a mlhu, abych se naučili, jak navrhnout a vytvořit dobrou úroveň. Tento project byl zakladem pro muj budouci 
     "Project Journey"`,
-    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Contacts</a>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakt</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
@@ -606,9 +603,10 @@ if (window.location.hash) {
     buttonCzech.textContent = language.de.buttonCzech;
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
-    contactButton.innerHTML = language.de.aboutme;
+    contactsButton.innerHTML = language.de.contactsButton;
     contacts.textContent = language.de.contacts;
-    project.textContent = language.de.project;
+    projects.textContent = language.de.projects;
+    about.textContent = language.de.about;
     devby.textContent = language.de.devby;
     basedon.textContent = language.de.basedon;
     welcome02.textContent = language.de.welcome02;
@@ -636,9 +634,10 @@ if (window.location.hash) {
     buttonGerman.textContent = language.cz.buttonGerman;
     buttonCzech.textContent = language.cz.buttonCzech;
     home.textContent = language.cz.home;
-    contactButton.innerHTML = language.cz.aboutme;
+    contactsButton.innerHTML = language.cz.contactsButton;
     contacts.textContent = language.cz.contacts;
-    project.textContent = language.cz.project;
+    projects.textContent = language.cz.projects;
+    about.textContent = language.cz.about;
     devby.textContent = language.cz.devby;
     basedon.textContent = language.cz.basedon;
     welcome02.textContent = language.cz.welcome02;
