@@ -598,7 +598,6 @@ if (window.location.hash) {
     buttonCzech.textContent = language.de.buttonCzech;
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
-    contactsButton.innerHTML = language.de.contactsButton;
     projectsButton.innerHTML = language.de.projectsButton;
     contactsButton.innerHTML = language.de.contactsButton;
     projects.textContent = language.de.projects;
