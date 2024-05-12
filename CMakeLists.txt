@@ -1,17 +1,3 @@
-<!--
-  Hello there!
-  -
-  Emper(P)ortfolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  And Used and Changed by Me (Martin KunDis Svanda).
-  Github Repo: https://github.com/EmperorKunDis/OnePagePortfolio_SoftGameDev.git
-  Readme: 
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>

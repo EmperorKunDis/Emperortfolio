@@ -1,0 +1,139 @@
+.dscription {
+  white-space: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrp {
+  display: flex;
+  justify: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 24px;
+  padding: 24px;
+  flex-wrap: wrap;
+}
+
+.bx {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  position: relative;
+  padding: 24px;
+  background: $form-background;
+}
+
+.bx-tp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.bx-imge {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.ttle-flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bx-ttle {
+  border-left: 3px solid var(--purple);
+  padding-left: 12px;
+}
+
+.usr-follw-inf {
+  color: $third-color;
+}
+
+.fll-ne {
+  background: var(--light-bg);
+}
+
+.fll-tw {
+  background: var(--pink);
+}
+
+/* RESPONSIVE QUERIES */
+
+@media (min-width: 320px) {
+  .ttle-flx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .usr-follw-inf {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 460px) {
+  .ttle-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .usr-follw-inf {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 640px) {
+  .bx {
+    flex-basis: calc(50% - 12px);
+  }
+  .ttle-flx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .usr-follw-inf {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 840px) {
+  .ttle-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .usr-follw-inf {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bx {
+    flex-basis: calc(33.3% - 16px);
+  }
+  .ttle-flx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .usr-follw-inf {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .bx {
+    flex-basis: calc(25% - 18px);
+  }
+}
