@@ -599,7 +599,7 @@ if (window.location.hash) {
     buttonGerman.textContent = language.de.buttonGerman;
     home.textContent = language.de.home;
     projectsButton.innerHTML = language.de.projectsButton;
-    contactsButton.innerHTML = language.de.contactsButton;
+    contactsButton.textContent = language.de.contactsButton;
     projects.textContent = language.de.projects;
     about.textContent = language.de.about;
     devby.textContent = language.de.devby;
@@ -629,7 +629,7 @@ if (window.location.hash) {
     buttonGerman.textContent = language.cz.buttonGerman;
     buttonCzech.textContent = language.cz.buttonCzech;
     home.textContent = language.cz.home;
-    contactsButton.innerHTML = language.cz.contactsButton;
+    contactsButton.textContent = language.cz.contactsButton;
     contacts.textContent = language.cz.contacts;
     projects.textContent = language.cz.projects;
     about.textContent = language.cz.about;
