@@ -78,7 +78,7 @@ let language = {
     believes that with hard work and dedication, any kind of success is possible.`,
     home: "Home",
     projects: "Projects",
-    about: "About",
+    aboutLangButton: "About me",
     aboutsec: "Would you like to know more ???",
     welcome02: "I'm NOT General Kenobi",
     welcome03: "I'm",
@@ -173,7 +173,7 @@ let language = {
     flashing lights, crouching and sprinting, jumping, stepping, leaning, finding notes and more. I then did cutscenes, studio 
     lighting, post-processing, atmosphere, particle effects and fog to learn how to design and create a good level. This project 
     was the basis for my future "Project Journey"`,
-    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Kontakt</a>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactEN.html">Contacts</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Contact</h2>
           <p id="contact" class="text-small">
@@ -268,7 +268,7 @@ let language = {
     orientierter Atheist, der glaubt, dass mit harter Arbeit und Hingabe jede Art von Erfolg möglich ist.`,
     home: "Startseite",
     projects: "Projekte",
-    about: "Ueber mich",
+    aboutLangButton: "Ueber mich",
     aboutsec: "Möchten sie mehr wissen ???",
     welcome02: "Ich bin NICHT General Kenobi",
     welcome03: "Ich heiße",
@@ -362,7 +362,7 @@ let language = {
     Öffnungsmodi, blinkende Lichter, Hocken und Sprinten, Springen, Treten, Lehnen, Notizen finden und mehr. Anschließend habe ich Zwischensequenzen, 
     Studiobeleuchtung, Nachbearbeitung, Atmosphäre, Partikeleffekte und Nebel erstellt, um zu lernen, wie man ein gutes Level gestaltet und erstellt. Dieses 
     Projekt war die Grundlage für meine zukünftige „Projektreise“`,
-    contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Contacts</a>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactDE.html">Kontakte</a>`,
     contact: `
       <h2 class="section-title">Kontakte</h2>
           <p id="contact" class="text-small">
@@ -452,6 +452,7 @@ let language = {
     veri ze tvrdou praci a cilevedomosti je možné dosáhnout jakehokoliv uspechu.
     `,
     home: "Domácí obrazovka",
+    aboutLangButton: "O mně",
     aboutsec: "CHCETE VĚDĚT VÍC ???",
     basedon: "Inspirovano : ",
     welcome02: "Já nejsem Generál Kenobi",
@@ -557,7 +558,7 @@ let language = {
     přikrčení a sprinty, skákání, kroky, naklánění, hledání poznámek a další. Poté jsem udelal cutscény, studiove osvětlení, post-processing, 
     atmosféru, částicových efektů a mlhu, abych se naučili, jak navrhnout a vytvořit dobrou úroveň. Tento project byl zakladem pro muj budouci 
     "Project Journey"`,
-    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakt</a>`,
+    contactsButton: `<a id="contHref" class="nav-link" href="contactCZ.html">Kontakty</a>`,
     contact: `
       <h2 id="contactsbot" class="section-title">Kontakt</h2>
           <p id="contact" class="text-small">
@@ -601,7 +602,7 @@ if (window.location.hash) {
     projectsButton.innerHTML = language.de.projectsButton;
     contactsButton.textContent = language.de.contactsButton;
     projects.textContent = language.de.projects;
-    about.textContent = language.de.about;
+    aboutLangButton.textContent = language.de.aboutLangButton;
     devby.textContent = language.de.devby;
     basedon.textContent = language.de.basedon;
     welcome02.textContent = language.de.welcome02;
@@ -632,7 +633,7 @@ if (window.location.hash) {
     contactsButton.textContent = language.cz.contactsButton;
     contacts.textContent = language.cz.contacts;
     projects.textContent = language.cz.projects;
-    about.textContent = language.cz.about;
+    aboutLangButton.textContent = language.cz.aboutLangButton;
     devby.textContent = language.cz.devby;
     basedon.textContent = language.cz.basedon;
     welcome02.textContent = language.cz.welcome02;
