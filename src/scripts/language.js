@@ -31,51 +31,33 @@ let language = {
     buttonEnglish: "English",
     buttonGerman: "German",
     buttonCzech: "Czech",
-    aboutHidden: `In 2012 I returned from Prague to Cheb. After finishing my university studies I tried to 
-    to establish myself as a software developer in Prague. Unfortunately, I failed because my parents had no 
-    contacts in Prague and no financial background to help me settle down in the capital. Find a job 
-    in my field in Cheb turned out to be impossible. All my successful classmates worked for low wages at 02 
-    or T-Mobile or manual labor in printing shops. The only way to get a little to make a better living was 
-    to work in Germany. In 2012, I started working for a German company. Despite my education (primary, 
-    secondary, high school and university) and studies English for a total of more than 13 years (including 
-    2 years of IT English and 1.5 years of business English) I had to start at the lowest level. It took me 
-    almost 3 years to go from being a helper to to installing sockets. 
-    
-    Thanks to my logical thinking and experience with technical drawing, I quickly became familiar with 
-    technical documentation and assembly plans. After three years I became the leader of several small 
-    teams of electricians and we travelled all over Germany, building houses and installing office interiors. 
-    It was a good job with good pay and I was happy as a single man. Had it not been for the covid-19 pandemic, 
-    I would probably still be in that job today. But the covid-19 pandemic changed everything for me. It made 
-    traveling to the Montazes more difficult. At the same time, I found a wife, we started a family, and traveling 
-    for a weekly bazi or longer work montages was no longer an option for me. I had to find work close to the 
-    border. For six months I worked in a glass factory, sweeping floors. It was one of the worst period of my 
-    life. But then I finally decided to pursue my hobby of game development and programming to the fullest and 
-    I started to study very actively and look for ways to achieve my dream. Times have changed and today it is 
-    possible to find a good job in software development even in border regions, even in game development, which 
-    has always been my passion. 
-    
-    When the UE5 Matrix playable demo was released on 9 December 2021, I was excited. I had no idea that gaming 
-    industry had moved so far I always thought that without hundreds of people and hundreds of computers there 
-    was no game development I knew I had to download it at home, so I did, and I downloaded UE5 and the first 
-    spent over 30 hours on it the first weekend, found UnrealSensei on YouTube and did two tutorials. And it 
-    was amazing, and over the next couple of months I spent about 40-50 hours on it. a week. And I got into a 
-    situation where I can add everything and set everything up, but it doesn't have any functionality and it's 
-    not a game, it's just a world that you're free to move around in. And just when I thought I was going to be 
-    I'd have to look for a resource that would teach me how to actually develop games in UE and not just make a 
-    game where you can't play, I found a promotion on HumbleBundle for "Create Unreal 5 Engine Games Bundle" and 
-    bought the complete bundle with all the courses, which started the video game adventure. In the months and 
-    years that followed, I worked on a couple of projects on Game Jam, wrote a few websites, made a few assemblies, 
-    made a few concept games, moved a few I moved from the Czech Republic to Germany ( because I don't want my kids 
-    to do what I've been doing for years I learn something and then have nowhere to use it), my second daughter was 
-    born, I finally played on an official the WoW server, made a high level mage, and as part of the Bohemian Lions 
-    guild, I "made history". , built 3 drones and participated in several flying days at the airport in Cheb, he 
-    did incredible many different courses around game development mostly in Unreal Engine but not only in it, I 
-    learned programming in several programming languages (C++, C#, Java, JavaScript{I don't consider HTML and CSS 
-    programming languages}). And now I think the time is finally ripe and my skill to fully dive into my dream 
-    industry and help it move forward.
-    
-    I'm mainly a father, husband, gamer, Star Wars fan, programmer, and a technically minded atheist who who 
-    believes that with hard work and dedication, any kind of success is possible.`,
+    aboutHidden: `In 2012, I returned from Prague to Cheb. Finding a job in my field in Cheb was impossible. Many of my successful classmates were working for 
+    low wages at O2 or T-Mobile or in manual labor in printing shops. The only viable option to improve my living standards was to work in Germany.
+In 2012, I began working for a German company. Despite my comprehensive education, including over 13 years of English studies (with a focus on IT and business 
+English), I had to start at the lowest level. It took me nearly three years to progress from being a helper to installing sockets.Thanks to my logical thinking 
+and experience with technical drawing, I quickly became proficient with technical documentation and assembly plans. After three years, I led several small teams 
+of electricians, traveling across Germany to build houses and install office interiors. It was a fulfilling job with good pay, and I was content as a single man.
+However, the COVID-19 pandemic changed everything. It made travel for installations more difficult, and I started a family. Traveling for work was no longer an 
+option, so I sought work closer to the border. For six months, I worked in a glass factory, sweeping floors. It was one of the most challenging periods of my 
+life. Eventually, I decided to fully pursue my passion for programming and software development. Times have changed, and today, it is possible to find good jobs 
+in software development even in border regions, including game development, which has always been my passion. Since high school, I have been programming my own 
+solutions. I maintain a homelab with Linux servers for various purposes, such as a shared hard disk, media server, and personal cloud for backing up photos from 
+my mobile devices. I have also programmed custom reprogrammable buttons for any peripheral (mouse, keyboard, etc.). Solving basic problems through programming my 
+own solutions has always been my approach.
+
+🔧 Tech-Savvy Innovator: With a passion for technology and innovation, I have transformed my home into a fully functional 
+homelab, featuring Linux servers that power a variety of personal projects and utilities. From a shared hard disk to a robust media server, my setup is designed 
+to optimize convenience and enhance digital experiences.☁️ Personal Cloud Architect: In today's digital age, having secure access to your data is crucial. 
+That's why I've built my own personal cloud for seamless photo uploads from mobile devices. With my custom solutions, I ensure that all your precious memories 
+are stored safely and can be accessed anytime, anywhere. 🎛️ Custom Peripheral Programming: Efficiency and personalization are key to productivity. I specialize 
+in programming reprogrammable buttons on peripherals such as mice and keyboards. Whether it's for gaming, work, or creative projects, I can tailor your devices 
+to fit your unique needs, enhancing your workflow and overall experience. 💡 Problem-Solving Pro: Encountering a tech issue? I thrive on solving basic problems 
+by programming my own solutions. With a strong foundation in coding and problem-solving skills, I can develop and implement custom software to tackle everyday 
+challenges, making life simpler and more efficient. I built 3 drones, participated in several flying days at the Cheb airport, and completed numerous courses 
+in game development, primarily in Unreal Engine but also in other areas. I learned programming in several languages, including C++, C#, Java, and JavaScript.
+Now, I believe the time is right to fully dive into the software development industry and contribute to its progress. I am a father, husband, gamer, Star Wars 
+fan, programmer, and a technically minded atheist who believes that with hard work and dedication, any kind of success is possible.
+`,
     home: "Home",
     projects: "Projects",
     aboutLangButton: "About me",
