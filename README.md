@@ -100,10 +100,6 @@ $ sudo npm install --unsafe-perm=true --allow-root
 
 Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
 
-<h2 align="center">
-  <img src="https://github.com/EmperorKunDis/MyWebsites" alt="Emper(P)ortfolio" width="100%">
-</h2>
-
 ---
 
 ## Template Instructions:
